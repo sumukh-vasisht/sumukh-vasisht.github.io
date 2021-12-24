@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVS Codes | Blog</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../static/css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="../static/css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="../static/css/index.css">
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    {% include "navigation.html" %}
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        {% include 'background.html' %}
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="../static/images/Blog-post/about-me.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>About Myself</h3>
+                                <p style="text-align: left; margin-left: 5%; margin-right: 5%;">Hello, everyone! Welcome to my first blog post! My name is Sumukh Vasisht S. I'm 21 years old and ...</p>
+                                <a href="/about-me"><button class="btn btn-blog">Read More</button></a>
+                                <span><i class="fa fa-eye"></i> {{ blogInformation['about-me'] }}</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="../static/images/Blog-post/gre.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>My GRE Preperation</h3>
+                                <p style="text-align: left; margin-left: 5%; margin-right: 5%;">A small writing on my GRE preperation journey. What went good for me and...</p>
+                                <a href="/coming-soon"><button class="btn btn-blog">Read More</button></a>
+                                <span><i class="fa fa-eye"></i> {{ blogInformation['gre-my-journey'] }}</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="../static/images/Blog-post/pythonOrR.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Python over R?</h3>
+                                <p style="text-align: left; margin-left: 5%; margin-right: 5%;">Here's my take on why I prefer Python over R for statistical and mathematical computations...</p>
+                                <a href="/coming-soon"><button class="btn btn-blog">Read More</button></a>
+                                <span><i class="fa fa-eye"></i> {{ blogInformation['python-or-r'] }}</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="../static/images/Blog-post/about-me.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Coming Soon</h3>
+                                <p style="text-align: left; margin-left: 5%; margin-right: 5%;">New blog coming soon! Subscribe to my blog for regular updates. Stay tuned!</p>
+                                <a href="/coming-soon"><button class="btn btn-blog">Read More</button></a>
+                                <span><i class="fa fa-eye"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                {% include 'page1.html' %} {% include 'right-division.html' %}
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    {% include 'footer.html' %}
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="../static/js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="../static/js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="../static/js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>

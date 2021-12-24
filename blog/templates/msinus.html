@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVS Codes | Blog</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../static/css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="../static/css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="../static/css/index.css">
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    {% include "navigation.html" %}
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        {% include 'background.html' %}
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="../static/images/Blog-post/gre.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;SVS</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 1, 2021</span>
+                                <span>{{ blogInformation['gre-my-journey'] }} Views</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Graduate Record Examination aka GRE</a>
+                            <p>What is GRE? Why should one take GRE? Why did I take up the exam? How was my journey from when I started to prepare to the exam D-Day? A small writing on my GRE preperation journey. What went good for me and...
+                            </p>
+                            <a href="/coming-soon"><button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <!-- <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a> -->
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                {% include 'right-division.html' %}
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    {% include 'footer.html' %}
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="../static/js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="../static/js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="../static/js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>
