@@ -121,7 +121,7 @@
                         My research interests span from development of new machine learning and deep learning models to applications of the models to a diverse set of applications in science and engineering. I've previously worked on:
                     </p>
                     <p>
-                        1. Development and applications of equivariant neural networks for fluid dynamics.
+                        1. Development and applications of equivariant neural networks for various applications.
                     </p>
                     <p>
                         2. Development and applications of ML models for healthcare applications, primarily cardiovascular field.
@@ -171,12 +171,185 @@
 
                 <header class="post-header">
                     <h1 class="post-title-research-page">
-                        <span class="font-weight-bold"><span style="color: red;">Publications</span></span>
+                        <span class="font-weight-bold"><span style="color: red;">Publications and Pre-Prints</span></span>
                     </h1>
                     <p class="desc"></p>
                 </header>
 
                 <div class="publications">
+
+                    <h2 class="year">2024</h2>
+                    <ol class="bibliography">
+                        <li>
+                            <div class="row">
+                                <div class="col-sm-3 abbr">
+                                    <abbr class="badge">Under Review - EHJ-DH</abbr>
+                                    <img src="../publications/images/heartdx-lm.png" alt="Project Image" style="object-fit: contain;">
+                                </div>
+
+                                <div id="iClarify" class="col-sm-8">
+                                    <div class="title">Automated Transformation of Unstructured Cardiovascular Diagnostic Reports into Structured Datasets Using Sequentially Deployed Large Language Models</div>
+                                    <div class="author">
+                                        <p><a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Lovedeep Dhingra, Arya Aminorroaya, Philip Adejumo, Girish N Nadkarni, Hua Xu, Cynthia Brandt, Evangelos K Oikonomou, Aline F Pedroso, Rohan Khera</p>
+                                    </div>
+
+                                    <div class="links">
+                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+                                        <a href="https://www.medrxiv.org/content/medrxiv/early/2024/10/08/2024.10.08.24315035.full.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+                                    </div>
+
+                                    <!-- Hidden abstract block -->
+                                    <div class="abstract hidden">
+                                        <p>
+                                            Background: Rich data in cardiovascular diagnostic testing are often sequestered in unstructured reports, limiting their use. <br/>
+
+                                            Methods: We sequentially deployed generative and interpretative open-source large language models (LLMs; Llama2 70b, Llama2 13b). Using Llama2 70b, we generated varying formats of transthoracic echocardiogram (TTE) reports from 3000 real-world reports with paired structured elements. Using prompt-based supervised training, we fine-tuned Llama2 13b using sequentially larger batches of generated TTE reports as inputs, to extract data across 18 clinically-relevant echocardiographic fields. We evaluated the fine-tuned model, HeartDx-LM, on distinct datasets: (i) different time periods and formats at Yale New Haven Health System (YNHHS), (ii) Medical Information Mart for Intensive Care (MIMIC) III, and (iii) MIMIC IV. We used accuracy and Cohen's Kappa as evaluation metrics and have publicly released the HeartDX-LM model.<br/> 
+                                            
+                                            Results: HeartDX-LM was trained on 2,000 synthetic reports with varying formats and paired structured labels. We identified a lower threshold of 500 annotated reports required for fine-tuning to achieve consistent performance. At YNHHS, HeartDX-LM accurately extracted 69,144 of 70,032 values (98.7%) across 18 fields in the contemporary test set where paired structured data were available. In 100 older YNHHS reports, HeartDx-LM achieved 87.1% accuracy against expert annotations. In external validation sets from MIMIC-III and MIMIC-IV, HeartDx-LM correctly extracted 615 of 707 available values (87.9%) and 201 of 220 available values (91.3%), from 100 random, expert-annotated reports from each set. <br/>
+
+                                            Conclusion: We developed and validated a novel approach using paired large and moderate-sized LLMs to transform free-text echocardiographic reports into tabular datasets.
+                                        </p>
+                                    </div>
+                                    <!-- Hidden bibtex block -->
+
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <h2 class="year">2024</h2>
+                    <ol class="bibliography">
+                        <li>
+                            <div class="row">
+                                <div class="col-sm-3 abbr">
+                                    <abbr class="badge">Preprint</abbr>
+                                    <img src="../publications/images/chadsvasc-1.png" alt="Project Image" style="object-fit: contain;">
+                                </div>
+
+                                <div id="iClarify" class="col-sm-8">
+                                    <div class="title">Retrieval-Augmented Generation for Extracting CHA₂DS₂-VASc Risk Factors from Unstructured Clinical Notes in Patients with Atrial Fibrillation</div>
+                                    <div class="author">
+                                        <p>Philip Adejumo, Phyllis Thangaraj, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Lovedeep Dhingra, Arya Aminorroaya, Rohan Khera</p>
+                                    </div>
+
+                                    <div class="links">
+                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+                                        <a href="https://pubmed.ncbi.nlm.nih.gov/39371151/" class="btn btn-sm z-depth-0" role="button">PDF</a>
+                                    </div>
+
+                                    <!-- Hidden abstract block -->
+                                    <div class="abstract hidden">
+                                        <p>
+                                            Background: Assessment of stroke risk in patients with atrial fibrillation (AF) is crucial for guiding anticoagulation therapy. CHA2DS2-VASc is a widely used score for defining this risk, but current assessments rely on manual calculation by clinicians or approximations from structured EHR data elements. Unstructured clinical notes contain rich information that could enhance risk assessment. We developed and validated a Retrieval-Augmented Generation (RAG) approach to extract CHA2DS2-VASc risk factors from unstructured notes in patients with AF.<br/>
+
+                                            Methods: We employed a RAG architecture paired with the large language model, Llama3.1, to extract features relevant to CHA2DS2-VASc scores from unstructured notes. The model was deployed on a random set of 1,000 clinical notes (934 AF patients) from Yale New Haven Health System (YNHHS). To establish a gold standard, 2 clinicians manually reviewed and labeled CHA2DS2-VASc risk factors in a random subset of 200 notes. The CHA2DS2-VASc scores were calculated for each patient using structured data alone and by incorporating risk factors identified with RAG. We assessed performance across risk factors using macro-averaged area under the receiver operating characteristic (AUROC). For external validation, we utilized 100 manually labeled clinical notes from the MIMIC-IV database.<br/>
+
+                                            Results: The RAG model demonstrated robust performance in extracting risk factors from clinical notes. In the 1000 clinical notes, RAG identified several risk factors more frequently than structured elements, including hypertension (82.4% vs 26.2%), stroke/TIA (62.9% vs 45.5%), vascular disease (83.4% vs 56.6%), and diabetes (84.1% vs 47.2%). In the 200 expert-annotated notes, the RAG approach achieved high performance for various risk factors, with AUROCs ranging from 0.96 to 0.98 for hypertension, diabetes, and age ≥75 years. Incorporating risk factors identified by RAG increased CHA2DS2-VASc scores compared with using structured data alone.<br/>
+
+                                            Conclusion: An LLM-optimized RAG can accurately extract CHA2DS2-VASc risk factors from unstructured clinical notes in AF patients. This approach can enable computable risk assessment and guide appropriate anticoagulation therapy.<br/>
+                                        </p>
+                                    </div>
+                                    <!-- Hidden bibtex block -->
+
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <h2 class="year">2024</h2>
+                    <ol class="bibliography">
+                        <li>
+                            <div class="row">
+                                <div class="col-sm-3 abbr">
+                                    <abbr class="badge">Preprint</abbr>
+                                    <img src="../publications/images/present-shd.png" alt="Project Image" style="object-fit: contain;">
+                                </div>
+
+                                <div id="iClarify" class="col-sm-8">
+                                    <div class="title">An Ensemble Deep Learning Algorithm for Structural Heart Disease Screening Using Electrocardiographic Images: PRESENT SHD</div>
+                                    <div class="author">
+                                        <p>Lovedeep Singh Dhingra, Arya Aminorroaya, Veer Sangha, Aline Pedroso Camargos, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Andreas Coppi, Murilo Foppa, Luisa Campos Caldeira Brant, Sandhi M Barreto, Antônio LP Ribeiro, Harlan Krumholz, Evangelos K Oikonomou, Rohan Khera</p>
+                                    </div>
+
+                                    <div class="links">
+                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+                                        <a href="https://www.medrxiv.org/content/10.1101/2024.10.06.24314939v1" class="btn btn-sm z-depth-0" role="button">PDF</a>
+                                        <a href="https://www.cards-lab.org/present-shd" class="btn btn-sm z-depth-0" role="button">Webpage</a>
+                                    </div>
+
+                                    <!-- Hidden abstract block -->
+                                    <div class="abstract hidden">
+                                        <p>
+                                            Background: Identifying structural heart diseases (SHDs) early can change the course of the disease, but their diagnosis requires cardiac imaging, which is limited in accessibility.<br/>
+
+                                            Objective: To leverage 12-lead ECG images for automated detection and prediction of multiple SHDs using a novel deep learning model.<br/>
+
+                                            Methods: We developed a series of convolutional neural network models for detecting a range of individual SHDs from images of ECGs with SHDs defined by transthoracic echocardiograms (TTEs) performed within 30 days of the ECG at the Yale New Haven Hospital (YNHH). SHDs were defined based on TTEs with LV ejection fraction 40%, moderate-to-severe left-sided valvular disease (aortic/mitral stenosis or regurgitation), or severe left ventricular hypertrophy (IVSd > 1.5cm and diastolic dysfunction). We developed an ensemble XGBoost model, PRESENT-SHD, as a composite screen across all SHDs. We validated PRESENT-SHD at 4 US hospitals and a prospective population-based cohort study, the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil), with concurrent protocolized ECGs and TTEs. We also used PRESENT-SHD for risk stratification of new-onset SHD or heart failure (HF) in clinical cohorts and the population-based UK Biobank (UKB).<br/>
+
+                                            Results: The models were developed using 261,228 ECGs from 93,693 YNHH patients and evaluated on a single ECG from 11,023 individuals at YNHH (19% with SHD), 44,591 across external hospitals (20-27% with SHD), and 3,014 in the ELSA-Brasil (3% with SHD). In the held-out test set, PRESENT-SHD demonstrated an AUROC of 0.886 (0.877-894), sensitivity of 89%, and specificity of 66%. At hospital-based sites, PRESENT-SHD had AUROCs ranging from 0.854-0.900, with sensitivities and specificities of 93-96% and 51-56%, respectively. The model generalized well to ELSA-Brasil (AUROC, 0.853 [0.811-0.897], sensitivity 88%, specificity 62%). PRESENT-SHD performance was consistent across demographic subgroups. A positive PRESENT-SHD screen portended a 2- to 4-fold higher risk of new-onset SHD/HF, independent of demographics, comorbidities, and the competing risk of death across clinical sites and UKB, with high predictive discrimination.<br/>
+
+                                            Conclusion: We developed and validated PRESENT-SHD, an AI-ECG tool identifying a range of SHD using images of 12-lead ECGs, representing a robust, scalable, and accessible modality for automated SHD screening and risk stratification.<br/>
+                                        </p>
+                                    </div>
+                                    <!-- Hidden bibtex block -->
+
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <h2 class="year">2024</h2>
+                    <ol class="bibliography">
+                        <li>
+                            <div class="row">
+                                <div class="col-sm-3 abbr">
+                                    <abbr class="badge">Under Review - JIMMI</abbr>
+                                    <img src="../publications/images/enn2.png" alt="Project Image" style="object-fit: contain;">
+                                </div>
+
+                                <div id="iClarify" class="col-sm-8">
+                                    <div class="title">Equivariant Neural Networks for Controlling Dynamic Spatial Light Modulators</div>
+                                    <div class="author">
+                                        <p><a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>*, Rui Wang*, Darrel D'Souza, Jonathan P Singer, Robin Walters</p>
+                                    </div>
+
+                                    <div class="links">
+                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+                                        <!-- <a href="https://www.nature.com/articles/s44161-024-00469-1" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+                                    </div>
+
+                                    <!-- Hidden abstract block -->
+                                    <div class="abstract hidden">
+                                        <p>
+                                            Spatial Light Modulators (SLMs) are devices that are capable of manipulating incident light by passing it through an
+                                            array of phase/intensity altering pixels. A recent alternative design involves creating a phase mask by directing a thin
+                                            film of fluid
+                                            with thermocapillary forces generated by a controlled temperature map. However, it is difficult to
+                                            determine the input temperature signal necessary to induce a given height profile. The relationship between
+                                            temperature and height is given by the thin film
+                                            equation, a fourth-order non-linear PDE, which is difficult to solve
+                                            numerically. To address this problem, we train deep neural networks to directly solve the inverse problem, mapping
+                                            from the desired height profiles to the needed temperature patterns. We
+                                            design novel equivariant networks
+                                            incorporating scale and rotation symmetry of the underlying thin film equation. We demonstrate the effectiveness of
+                                            equivariant models for learning the complex relationship between input temperature signals and the resulti
+                                            ng light
+                                            patterns, showing they are more accurate than non
+                                            -
+                                            equivariant baselines and very computationally efficient. This work
+                                            has implications for a range of applications, including high
+                                            -
+                                            power laser systems, and could lead to more efficient and
+                                            effective
+                                            ways to deploy the process of modulation of light in SLMs in a variety of applications.
+                                        </p>
+                                    </div>
+                                    <!-- Hidden bibtex block -->
+
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
 
                     <h2 class="year">2024</h2>
                     <ol class="bibliography">
@@ -196,6 +369,7 @@
                                     <div class="links">
                                         <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
                                         <a href="https://www.nature.com/articles/s44161-024-00469-1" class="btn btn-sm z-depth-0" role="button">PDF</a>
+                                        <a href="https://www.cards-lab.org/arise" class="btn btn-sm z-depth-0" role="button">Webpage</a>
                                     </div>
 
                                     <!-- Hidden abstract block -->
@@ -217,7 +391,7 @@
                         <li>
                             <div class="row">
                                 <div class="col-sm-3 abbr">
-                                    <abbr class="badge">Under Review</abbr>
+                                    <abbr class="badge">Under Review - Nature Communications</abbr>
                                     <img src="../publications/images/rct-gan-1.jpg" alt="Project Image" style="object-fit: contain;">
                                 </div>
 
