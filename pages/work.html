@@ -36,10 +36,16 @@
         <!-- Nav Bar -->
         <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
             <div class="container">
-                <!-- Logo -->
-                <a href="index.html" class="navbar-brand">
-                    <!-- <img src="images/logo.png" alt="Logo" style="height: 60px;">  -->
-                </a>
+                <!-- Logo and Social Icons -->
+                <a href="mailto:sumukh.vasishtshankar@yale.edu" style="margin-right: 5px;"><i class="fas fa-envelope"></i></a>
+                <a href="https://scholar.google.com/citations?user=pFW1ZlIAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;"><i class="ai ai-google-scholar"></i></a>
+                <a href="https://github.com/sumukh-vasisht" title="GitHub" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sumukh-vasisht-s/" title="LinkedIn" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;"><i class="fab fa-linkedin"></i></a>
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="btn btn-link ml-2" title="Toggle dark/light mode" style="font-size: 1.5rem; outline: none;">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
                 <!-- Navbar Toggle -->
                 <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="sr-only">Toggle navigation</span>
@@ -60,6 +66,13 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="research.html">
                                 Research              
+                                <span class="sr-only">(current)</span>              
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="deployments.html">
+                                Deployments              
                                 <span class="sr-only">(current)</span>              
                             </a>
                         </li>
@@ -103,7 +116,7 @@
     <!-- Content -->
 
     <div class="container mt-5">
-        <div class="post">
+        <div class="post fade-in">
 
             <header class="post-header">
                 <h1 class="post-title-research-page">
@@ -189,6 +202,7 @@
 
 <!-- Load Common JS -->
 <script src="/assets/js/common.js"></script>
+<script src="../js/theme.js"></script>
 
 <!-- MathJax -->
 <script type="text/javascript">
@@ -216,6 +230,8 @@
 
 <script>
     $(document).ready(function() {
+        // Animate fade-in for main content
+        $('.post').addClass('fade-in');
         $('a.abstract').click(function() {
             $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
         });
