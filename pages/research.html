@@ -1,225 +1,209 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en" data-theme="dark">
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>
-        SVS
-    </title>
-
-    <!-- Bootstrap & MDB -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
-
-    <!-- Fonts & Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
-
-    <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="canonical" href="/">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>SVS</title>
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<!-- Styles -->
+<link rel="stylesheet" href="../css/main.css">
+<link rel="canonical" href="/">
 </head>
-
-<body class="fixed-top-nav sticky-bottom-footer">
-
-    <!-- Header -->
-    <header>
-        <!-- Nav Bar -->
-        <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-            <div class="container">
-                <!-- Logo and Social Icons -->
-                <a href="mailto:sumukh.vasishtshankar@yale.edu" style="margin-right: 5px;"><i class="fas fa-envelope"></i></a>
-                <a href="https://scholar.google.com/citations?user=pFW1ZlIAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;"><i class="ai ai-google-scholar"></i></a>
-                <a href="https://github.com/sumukh-vasisht" title="GitHub" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/sumukh-vasisht-s/" title="LinkedIn" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;"><i class="fab fa-linkedin"></i></a>
-                <!-- Theme Toggle Button -->
-                <button id="theme-toggle" class="btn btn-link ml-2" title="Toggle dark/light mode" style="font-size: 1.5rem; outline: none;">
-                    <i class="fas fa-moon"></i>
-                    <i class="fas fa-sun"></i>
-                </button>
-                <!-- Navbar Toggle -->
-                <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar top-bar"></span>
-                    <span class="icon-bar middle-bar"></span>
-                    <span class="icon-bar bottom-bar"></span>
-                </button>
-                <div class="collapse navbar-collapse text-right" id="navbarNav">
-                    <ul class="navbar-nav ml-auto flex-nowrap">
-                        <!-- About -->
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">
+<body class="fixed-top-nav sticky-bottom-footer page-research">
+<!-- Header -->
+<header>
+<!-- Nav Bar -->
+<nav class="navbar navbar-light navbar-expand-sm fixed-top" id="navbar">
+<div class="container">
+<a class="navbar-brand-mark" href="../index.html">SVS</a>
+<div class="nav-social">
+<a href="mailto:sumukh.vasishtshankar@yale.edu" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://scholar.google.com/citations?user=pFW1ZlIAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+<a href="https://github.com/sumukh-vasisht" rel="noopener noreferrer" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/sumukh-vasisht-s/" rel="noopener noreferrer" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+</div>
+<!-- Navbar Toggle -->
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed ml-auto" data-target="#navbarNav" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar top-bar"></span>
+<span class="icon-bar middle-bar"></span>
+<span class="icon-bar bottom-bar"></span>
+</button>
+<div class="collapse navbar-collapse text-right" id="navbarNav">
+<ul class="navbar-nav ml-auto flex-nowrap">
+<!-- About -->
+<li class="nav-item">
+<a class="nav-link" href="../index.html">
                                 Home              
-                                <span class="sr-only">(current)</span>              
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="research.html">
+                                <span class="sr-only">(current)</span>
+</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="research.html">
                                 Research              
-                                <span class="sr-only">(current)</span>              
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="deployments.html">
+                                <span class="sr-only">(current)</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="deployments.html">
                                 Deployments              
-                                <span class="sr-only">(current)</span>              
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="education.html">
+                                <span class="sr-only">(current)</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="education.html">
                                 Education              
-                                <span class="sr-only">(current)</span>              
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="work.html">
+                                <span class="sr-only">(current)</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="work.html">
                                 Work             
-                                <span class="sr-only">(current)</span>              
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="others.html">
+                                <span class="sr-only">(current)</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="others.html">
                                 Others              
-                                <span class="sr-only">(current)</span>              
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../svs-cv.pdf">
+                                <span class="sr-only">(current)</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../svs-cv.pdf">
                                 Resume              
-                                <span class="sr-only">(current)</span>              
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </header>
-
-
-    <!-- Content -->
-
-    <!-- Content -->
-
-    <div class="container mt-5">
-        <div class="post fade-in">
-
-            <header class="post-header">
-                <h1 class="post-title-research-page">
-                    <span class="font-weight-bold"><span style="color: red;">Research</span></span>
-                </h1>
-                <p class="desc"></p>
-            </header>
-
-            <article>
-
-                <div class="clearfix">
-                    <p>
+                                <span class="sr-only">(current)</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<!-- Content -->
+<!-- Content -->
+<div class="container mt-5">
+<div class="post fade-in">
+<header class="post-header">
+<h1 class="post-title-research-page">
+<span class="font-weight-bold">Research</span>
+</h1>
+<p class="desc"></p>
+</header>
+<article>
+<div class="clearfix">
+<p>
                         My research interests focus on the development and deployment of machine learning and deep learning systems for real-world applications, with a strong emphasis on healthcare and edge AI. My work spans model development, scalable data pipelines, and deployment of AI systems in clinical and wearable environments. I have worked on:
                     </p>
-                    
-                    <p>
+<p>
                         1. Development of deep learning and machine learning models for medical AI, with a focus on cardiovascular diagnostics using ECG, imaging, wearable, and electronic health record data.
                     </p>
-                    
-                    <p>
+<p>
                         2. Design and implementation of edge AI systems for on-device inference, including mobile, wearable, and low-power hardware deployments for healthcare applications.
                     </p>
-                    
-                    <p>
+<p>
                         3. Development of large language model applications, including RAG systems, NLP pipelines, and generative AI tools for scientific and clinical workflows.
                     </p>
-                    <hr>
+<hr/>
+</div>
+</article>
+<article>
+<header class="post-header">
+<h1 class="post-title-research-page">
+<span class="font-weight-bold">Research Experience</span>
+</h1>
+<p class="desc"></p>
+</header>
+<div class="clearfix experience-list">
+<h5><strong>CarDS Lab, Yale University</strong></h5>
+<p><strong>Lead Data Scientist</strong>, New Haven, CT</p>
+<p>July 2025 - Present</p>
+<p><strong>Data Scientist</strong>, New Haven, CT</p>
+<p>May 2023 - June 2025</p>
+<p>As a Data Scientist at the Cardiovascular Data Science Lab, Yale University, I leverage machine learning and natural language processing to advance cardiovascular data science research. My work encompasses diverse research projects, including Generative Adversarial Networks (GANs) for synthetic data generation, Retrieval-Augmented Generation (RAG) methods, and machine learning models for ECG image analysis. In addition to research, I build robust data infrastructures, including data architecture, mobile applications, and websites, to recruit research participants and deploy models on publicly accessible platforms.</p>
+<p><strong>PI: </strong><a href="https://medicine.yale.edu/profile/rohan-khera/" target="_blank">Dr. Rohan Khera</a></p>
+<hr/>
+<h5><strong>Geometric Learning Lab, Northeastern University</strong></h5>
+<p><strong>Research Fellow</strong>, Boston, MA</p>
+<p>Aug 2022 - Sep 2023</p>
+<p>As a part of the Khoury Research Apprenticeship Program in Fall 2022 and Spring 2023, I focused on applying Geometric Deep Learning and Equivariant Neural Networks to fluid mechanics and material sciences. My research involved analyzing the symmetries inherent in fluid dynamics and optics, and developing scale, translation, and rotation symmetric equivariant neural networks that integrates physical priors, enhancing physical realism and data efficiency.</p>
+<p><strong>PI: </strong><a href="https://www.robinwalters.com/" target="_blank">Dr. Robin Walters</a></p>
+<hr/>
+<h5><strong>Cybersecurity and Privacy Institute, Northeastern University</strong></h5>
+<p><strong>Research Assistant</strong>, Boston, MA</p>
+<p>Jan 2022 - Dec 2022</p>
+<p>Designed, collected, and analyzed Internet measurement campaigns to illuminate data localization practices in the European Union. Also implemented proof-of-concept models for various research papers and developed machine learning models to predict the physical locations of IP addresses.</p>
+<p><strong>PI: </strong><a href="https://david.choffnes.com/" target="_blank">Dr. David Choffnes</a>, <strong>Advisor: </strong><a href="https://www.gamero-garrido.com/" target="_blank">Dr. Alexander Gamero Garrido</a></p>
+<hr/>
+</div>
+</article>
+<article>
+<header class="post-header">
+<h1 class="post-title-research-page">
+<span class="font-weight-bold">Publications</span>
+</h1>
+<p class="desc"></p>
+</header>
+<div class="publications">
+<!--Electrocardiogram-Based Deep Learning to Prioritize Testing for Transthyretin Amyloid Cardiomyopathy-->
+<h2 class="year">2026</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/jama-tte.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">JAMA</abbr></div>
+<div class="title">Electrocardiogram-Based Deep Learning to Prioritize Testing for Transthyretin Amyloid Cardiomyopathy</div>
+<div class="author">
+<p>Philip M Croon, Bruno Batinica, Lovedeep S Dhingra, Ryan B Choi, Evangelos K Oikonomou, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Veer Sangha, Robert MA van der Boon, Michelle Michels, Maarten van Ettinger, Peter-Paul Zwetsloot, Sergio Teruya, Cesia Gallegos Kattan, Edward J Miller, Navid Noory, Oscar M Westin, Sie K Fensman, Steen Hvitfeldt Poulsen, Avneet Singh, Sudarshan Balla, Anouk Achten, Charalambos Vlachopoulos, Alexios S Antonopoulos, Nico Bruining, Julian D Gillmore, Mathew S Maurer, Frederick L Ruberg, Marianna Fontana, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://jamanetwork.com/journals/jama/article-abstract/2853388?__cf_chl_tk=wrYySgwh0IVyMGFCYOUB7AKjOjvTYJ6qGTdmJh7ED7g-1793124694-1.0.1.1-P79q5hjRddWlUIChxD8vWaRaFTul9I_RDtFG4aurMhk" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
+                                            Importance:  Transthyretin amyloid cardiomyopathy (ATTR-CM) is a treatable cause of heart failure, but diagnosis is often delayed. Accessible tools to prioritize confirmatory evaluation could reduce missed diagnoses when cardiac imaging is limited.
 
-                </div>
+                                            Objective:  To develop and validate a locally deployable artificial intelligence (AI)–enabled system that identifies patients for further ATTR-CM evaluation from routine electrocardiography (ECG) images.
 
-            </article>
+                                            Design, Setting, and Participants:  This diagnostic test study used an AI-ECG model developed within Yale New Haven Health (using ECGs from August 2015-June 2023) and temporally validated (July 2023-July 2025). External validation included 5 multinational cohorts and 3 screening cohorts (older Black and Hispanic adults with heart failure; adults with prior carpal tunnel surgery; 99-3902 individuals per cohort).
 
-            <article>
+                                            Exposure:  Use of AI-ECG for detecting ATTR-CM from routine ECG images or raw 12-lead signals.
 
-                <header class="post-header">
-                    <h1 class="post-title-research-page">
-                        <span class="font-weight-bold">Research Experience</span>
-                    </h1>
-                    <p class="desc"></p>
-                </header>
+                                            Main Outcomes and Measures:  Area under the receiver operating characteristic curve (AUROC), sensitivity, specificity, and positive and negative predictive values for ATTR-CM confirmed by cardiac amyloid radionuclide imaging (CARI) or biopsy. An exploratory analysis evaluated sequential screening with AI-ECG followed by AI-enabled echocardiography.
 
-                <div class="clearfix">
-                    <h5><strong>CarDS Lab, Yale University</strong></h5>
-                    <p><strong>Lead Data Scientist</strong>, New Haven, CT</p>
-                    <p>July 2025 - Present</p>
-                    <p><strong>Data Scientist</strong>, New Haven, CT</p>
-                    <p>May 2023 - June 2025</p>
-                    <p>As a Data Scientist at the Cardiovascular Data Science Lab, Yale University, I leverage machine learning and natural language processing to advance cardiovascular data science research. My work encompasses diverse research projects, including Generative Adversarial Networks (GANs) for synthetic data generation, Retrieval-Augmented Generation (RAG) methods, and machine learning models for ECG image analysis. In addition to research, I build robust data infrastructures, including data architecture, mobile applications, and websites, to recruit research participants and deploy models on publicly accessible platforms.</p>
-                    <p><strong>PI: </strong><a href="https://medicine.yale.edu/profile/rohan-khera/" target="_blank">Dr. Rohan Khera</a></p>
-                    <hr>
-                    <h5><strong>Geometric Learning Lab, Northeastern University</strong></h5>
-                    <p><strong>Research Fellow</strong>, Boston, MA</p>
-                    <p>Aug 2022 - Sep 2023</p>
-                    <p>As a part of the Khoury Research Apprenticeship Program in Fall 2022 and Spring 2023, I focused on applying Geometric Deep Learning and Equivariant Neural Networks to fluid mechanics and material sciences. My research involved analyzing the symmetries inherent in fluid dynamics and optics, and developing scale, translation, and rotation symmetric equivariant neural networks that integrates physical priors, enhancing physical realism and data efficiency.</p>
-                    <p><strong>PI: </strong><a href="https://www.robinwalters.com/" target="_blank">Dr. Robin Walters</a></p>
-                    <hr>
-                    <h5><strong>Cybersecurity and Privacy Institute, Northeastern University</strong></h5>
-                    <p><strong>Research Assistant</strong>, Boston, MA</p>
-                    <p>Jan 2022 - Dec 2022</p>
-                    <p>Designed, collected, and analyzed Internet measurement campaigns to illuminate data localization practices in the European Union. Also implemented proof-of-concept models for various research papers and developed machine learning models to predict the physical locations of IP addresses.</p>
-                    <p><strong>PI: </strong><a href="https://david.choffnes.com/" target="_blank">Dr. David Choffnes</a>, <strong>Advisor: </strong><a href="https://www.gamero-garrido.com/" target="_blank">Dr. Alexander Gamero Garrido</a></p>
-                    <hr>
-                </div>
+                                            Results:  Development used 28,174 ECGs from 11,291 patients (293 with ATTR-CM). In internal validation (44,123 patients; mean age, 68.5 years; 49.7% female), AUROC was 0.84 (95% CI, 0.79-0.89), with sensitivity of 0.72 and specificity of 0.86 at the prespecified threshold, and was maintained in a specificity stress test among patients with features that mimic ATTR-CM (left ventricular hypertrophy or severe aortic stenosis without amyloid; AUROC, 0.81 [95% CI, 0.75-0.86]) and those referred for CARI (AUROC, 0.78 [95% CI, 0.73-0.84]). Across 5 external cohorts, AUROCs ranged from 0.78 to 0.89. In 3 screening cohorts, AUROCs were 0.76 (95% CI, 0.68-0.83) in the SCAN-MP study (n = 645) and 0.79 (95% CI, 0.65-0.93) and 0.91 (95% CI, 0.82-0.97) in 2 CACTUS study cohorts (n = 251, n = 121). Sequential AI-ECG and AI-enabled echocardiography increased the positive predictive value from 0.24 to 0.66 and reduced sensitivity from 0.84 to 0.68.
 
-            </article>
-
-            <article>
-
-                <header class="post-header">
-                    <h1 class="post-title-research-page">
-                        <span class="font-weight-bold"><span style="color: red;">Publications</span></span>
-                    </h1>
-                    <p class="desc"></p>
-                </header>
-
-                <div class="publications">
-
-                    <!--Artificial intelligence-enabled electrocardiography to triage echocardiography for structural heart disease diagnosis in a low-resource setting-->
-                    <h2 class="year">2026</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">AJPC</abbr>
-                                    <img src="../publications/images/elsa-brazil.jpg" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Artificial intelligence-enabled electrocardiography to triage echocardiography for structural heart disease diagnosis in a low-resource setting</div>
-                                    <div class="author">
-                                        <p>Aline F. Pedroso, Bruno Ramos Nascimento, Lovedeep S Dhingra, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Wanessa C. Vinhal, Raldner Borges e Reges, Clareci S. Cardoso, Craig Sable, Antonio L.P. Riberio, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://pdf.sciencedirectassets.com/777610/AIP/1-s2.0-S2666667726001339/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjENH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHhjmuDMvkQhnoXGr76VCXifXKZRvsBkD1mPIrlNarlvAiEA97q6JvUZF%2Bt968w3l4GQIKNry%2BWqDCD4lN4rrSTfxWcquwUImf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDLvBKgkU2n5vBNT4uSqPBaem%2BK0UTHv%2BRjPB7xtKans0pQ7DF%2FO9oH7WPFp%2FsPtoNi4iBQp%2B%2BlGBF%2F4szZ38TsoEVGsTZVxrw8pfgPmGTjAdpGbFHgfFSDxhJM9LttSzr4%2BxWEsiIA2o1uZ%2BS8PZvOZ7sT36Z6sp6o3hk96sCSoJ5P2mLmmS8Gj0kYNYeEu%2B2Fy5YBP48b8W0YeiHZQ2wisUbIoBQvL95DW5oXG70yD%2FxwIimz4T%2F%2FyIEMJkhB91jLJdzr15U1Z0SD%2Bn0NjVqjGepVaktQx4JRtRKg1tZV3Q3YgXwB%2B8yS0VSWiIMG9dbT1VHc9Ab6SSm0yDhZvf51irlA2tPEUE%2FPD%2FaC8BTzPyvPyqcrxiL1ibFFl%2FasuwLJtv1EtSxifZM8BirqHEnf5kn%2BWX3CNp56MpML2gqaL4nh%2BccBBZHRwtIAMHu2lP9qFJnCfgHdOA0Fn2RKKg7rfykKYVtwzQD2kP2Pf0K%2FJEVjILu22phUg5R2%2F8J6VlS%2BgAcIFyU6PiSjKK5DT1nzJtfGLN681EGMfGFcr6zPgxKcZCQXCmdQWSIVhcRq2sZE3tcnPOJuxtdhto5mS1YdObYWcSisLEVHm%2BLm46e%2FWy%2F9JQkxDzUl3BymxwOkw20uFL%2FyfaS6loZUwUD8LnegZOPdgWWkz3CrT5MCFFx20cNQhm9Y0fWCarD5eRv1P%2BAYfNrTrtOZX3Q0Fo5NieHbS%2B31IafLwcM0ViYbZNZ9MFIwuPSrHY1SNYW0oNJn9ehot%2B4Ux231OFNIPFCssjuS8yeKo3M9Jl5JJ%2BzY%2FFScTQ1Ks%2BmZa9L4KFF2qgUvITZS%2B%2FZM6fjT5hmvjgyjmblphUf4bdLiSPA%2BKvbPo%2FCj6pIfjRipFrB04%2BIwaHlPUwtvOKzgY6sQHtSHFQJOTif%2FKDeWjnBD4ycv%2FJv4umotYZnOMrLcqoSUqt%2FL%2B3WGMpdtIEFscZ%2FeoObqHNEX1uv449zwQI3pZZnG8Mwhsc%2BF46iYV7gGw0ih329Ntz9%2BjrBuOTf3SEw9oq1mEZ2RnMIUsnKSEpQwTy26ZhfW4dbfFeyhh1DCr1lhJmOfgOvIiJZ1WXsKTfiuE0r1VKjLWrlXwvqqa42%2FmxI%2BuqXhAMBoFVvYWT%2B4z%2BWnM%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260324T165007Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVOJCPZEL%2F20260324%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=629f3ec6b9e8f1af2e813d0c293ed3a06fdae715e763b9b82fcf4727c3b3e89c&hash=68b7dce15d0717131b577e2ff9d53ff99ab642b6e997050661c0b92621f8866f&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2666667726001339&tid=spdf-0ec87dd7-fdd7-406c-84ea-05556e262726&sid=3ea74a3f9a93b34ad4989946f9201f5faedcgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=10145c0b535753075a01&rr=9e172c4f0effde6d&cc=us" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+                                            Conclusions and Relevance:  Locally deployable AI applied to ECG images discriminated ATTR-CM across multinational retrospective and screening cohorts. This approach may provide an accessible first step to prioritize selected patients for echocardiography and confirmatory imaging, although intended use and calibration require prospective evaluation.
+</p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--Artificial intelligence-enabled electrocardiography to triage echocardiography for structural heart disease diagnosis in a low-resource setting-->
+<h2 class="year">2026</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/elsa-brazil.jpg"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">AJPC</abbr></div>
+<div class="title">Artificial intelligence-enabled electrocardiography to triage echocardiography for structural heart disease diagnosis in a low-resource setting</div>
+<div class="author">
+<p>Aline F. Pedroso, Bruno Ramos Nascimento, Lovedeep S Dhingra, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Wanessa C. Vinhal, Raldner Borges e Reges, Clareci S. Cardoso, Craig Sable, Antonio L.P. Riberio, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://pdf.sciencedirectassets.com/777610/AIP/1-s2.0-S2666667726001339/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjENH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHhjmuDMvkQhnoXGr76VCXifXKZRvsBkD1mPIrlNarlvAiEA97q6JvUZF%2Bt968w3l4GQIKNry%2BWqDCD4lN4rrSTfxWcquwUImf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDLvBKgkU2n5vBNT4uSqPBaem%2BK0UTHv%2BRjPB7xtKans0pQ7DF%2FO9oH7WPFp%2FsPtoNi4iBQp%2B%2BlGBF%2F4szZ38TsoEVGsTZVxrw8pfgPmGTjAdpGbFHgfFSDxhJM9LttSzr4%2BxWEsiIA2o1uZ%2BS8PZvOZ7sT36Z6sp6o3hk96sCSoJ5P2mLmmS8Gj0kYNYeEu%2B2Fy5YBP48b8W0YeiHZQ2wisUbIoBQvL95DW5oXG70yD%2FxwIimz4T%2F%2FyIEMJkhB91jLJdzr15U1Z0SD%2Bn0NjVqjGepVaktQx4JRtRKg1tZV3Q3YgXwB%2B8yS0VSWiIMG9dbT1VHc9Ab6SSm0yDhZvf51irlA2tPEUE%2FPD%2FaC8BTzPyvPyqcrxiL1ibFFl%2FasuwLJtv1EtSxifZM8BirqHEnf5kn%2BWX3CNp56MpML2gqaL4nh%2BccBBZHRwtIAMHu2lP9qFJnCfgHdOA0Fn2RKKg7rfykKYVtwzQD2kP2Pf0K%2FJEVjILu22phUg5R2%2F8J6VlS%2BgAcIFyU6PiSjKK5DT1nzJtfGLN681EGMfGFcr6zPgxKcZCQXCmdQWSIVhcRq2sZE3tcnPOJuxtdhto5mS1YdObYWcSisLEVHm%2BLm46e%2FWy%2F9JQkxDzUl3BymxwOkw20uFL%2FyfaS6loZUwUD8LnegZOPdgWWkz3CrT5MCFFx20cNQhm9Y0fWCarD5eRv1P%2BAYfNrTrtOZX3Q0Fo5NieHbS%2B31IafLwcM0ViYbZNZ9MFIwuPSrHY1SNYW0oNJn9ehot%2B4Ux231OFNIPFCssjuS8yeKo3M9Jl5JJ%2BzY%2FFScTQ1Ks%2BmZa9L4KFF2qgUvITZS%2B%2FZM6fjT5hmvjgyjmblphUf4bdLiSPA%2BKvbPo%2FCj6pIfjRipFrB04%2BIwaHlPUwtvOKzgY6sQHtSHFQJOTif%2FKDeWjnBD4ycv%2FJv4umotYZnOMrLcqoSUqt%2FL%2B3WGMpdtIEFscZ%2FeoObqHNEX1uv449zwQI3pZZnG8Mwhsc%2BF46iYV7gGw0ih329Ntz9%2BjrBuOTf3SEw9oq1mEZ2RnMIUsnKSEpQwTy26ZhfW4dbfFeyhh1DCr1lhJmOfgOvIiJZ1WXsKTfiuE0r1VKjLWrlXwvqqa42%2FmxI%2BuqXhAMBoFVvYWT%2B4z%2BWnM%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20260324T165007Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYVOJCPZEL%2F20260324%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=629f3ec6b9e8f1af2e813d0c293ed3a06fdae715e763b9b82fcf4727c3b3e89c&amp;hash=68b7dce15d0717131b577e2ff9d53ff99ab642b6e997050661c0b92621f8866f&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S2666667726001339&amp;tid=spdf-0ec87dd7-fdd7-406c-84ea-05556e262726&amp;sid=3ea74a3f9a93b34ad4989946f9201f5faedcgxrqa&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=10145c0b535753075a01&amp;rr=9e172c4f0effde6d&amp;cc=us" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Background: Timely diagnosis of structural heart disease (SHD) is often constrained by limited access to echocardiography in low-resource settings. Although electrocardiography (ECG) is widely available, traditional
                                             interpretation poorly reflects underlying SHD risk, leading to inefficient referral for echocardiography.
 
@@ -243,150 +227,106 @@
                                             assessment. Applying AI-ECG to echocardiography referral workflows can substantially accelerate diagnosis under limited imaging capacity, supporting more efficient and equitable use of cardiovascular diagnostic
                                             resources.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--Artificial intelligence-based automated interpretation of images of electrocardiograms: development and multinational validation of ECG-GPT-->
-                    <h2 class="year">2026</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">EHJ-DH</abbr>
-                                    <img src="../publications/images/ecg-gpt.jpg" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Artificial intelligence-based automated interpretation of images of electrocardiograms: development and multinational validation of ECG-GPT</div>
-                                    <div class="author">
-                                        <p>Akshay Khunte, Veer Sangha, Evangelos K Oikonomou, Lovedeep S Dhingra, Arya Aminorroaya, Andreas Coppi, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Elijah Rockers, Bobak J Mortazavi, Deepak L Bhatt, Harlan M Krumholz, Sadeer Al-Kindi, Girish N Nadkarni, Akhil Vaid, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://academic.oup.com/ehjdh/article/7/3/ztag031/8489956?guestAccessKey=" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--Artificial intelligence-based automated interpretation of images of electrocardiograms: development and multinational validation of ECG-GPT-->
+<h2 class="year">2026</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/ecg-gpt.jpg"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">EHJ-DH</abbr></div>
+<div class="title">Artificial intelligence-based automated interpretation of images of electrocardiograms: development and multinational validation of ECG-GPT</div>
+<div class="author">
+<p>Akshay Khunte, Veer Sangha, Evangelos K Oikonomou, Lovedeep S Dhingra, Arya Aminorroaya, Andreas Coppi, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Elijah Rockers, Bobak J Mortazavi, Deepak L Bhatt, Harlan M Krumholz, Sadeer Al-Kindi, Girish N Nadkarni, Akhil Vaid, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://academic.oup.com/ehjdh/article/7/3/ztag031/8489956?guestAccessKey=" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Aims: Timely, accurate assessment of electrocardiograms (ECGs) is crucial for diagnosing, triaging, and managing patients. However, this often relies on expert interpretation, a major bottleneck in low-resource settings. We developed and validated ECG-GPT, a format-independent vision encoder–decoder model that generates expert-level interpretations from 12-lead ECG images.
 
-                                            Methods and results: We developed ECG-GPT using 12-lead ECGs and their corresponding diagnosis statements performed at a large US health system between 2000 and 2022. Using structured clinical assessment, semantic similarity, and conventional metrics, we validated ECG-GPT across seven distinct health settings, including three large and diverse US health systems, ECGs from Minas Gerais, Brazil, the UK Biobank, the Germany-based PTB-XL dataset, and a community hospital in Missouri. In total, 2.9 million ECGs were used for model development, and 4.1 million ECGs for validation. The model performed well in clinical assessment across 26 extracted labels, with diagnostic accuracy ranging from 0.93 to 0.99. For rhythm abnormalities, including atrial fibrillation, sinus tachycardia, sinus bradycardia, premature atrial contractions, and premature ventricular contractions, AUROCs ranged from 0.80 to 0.95. For conduction abnormalities, including left bundle branch block, right bundle branch block, first degree atrioventricular block, left anterior fascicular block, and left posterior fascicular block, AUROCs ranged from 0.88 to 0.96. ECG-GPT identified the full context of diagnosis statements with allied conditions with a median pairwise similarity of 0.90, significantly greater than baseline (P < 0.001). Results were comparable across external validation sites.
+                                            Methods and results: We developed ECG-GPT using 12-lead ECGs and their corresponding diagnosis statements performed at a large US health system between 2000 and 2022. Using structured clinical assessment, semantic similarity, and conventional metrics, we validated ECG-GPT across seven distinct health settings, including three large and diverse US health systems, ECGs from Minas Gerais, Brazil, the UK Biobank, the Germany-based PTB-XL dataset, and a community hospital in Missouri. In total, 2.9 million ECGs were used for model development, and 4.1 million ECGs for validation. The model performed well in clinical assessment across 26 extracted labels, with diagnostic accuracy ranging from 0.93 to 0.99. For rhythm abnormalities, including atrial fibrillation, sinus tachycardia, sinus bradycardia, premature atrial contractions, and premature ventricular contractions, AUROCs ranged from 0.80 to 0.95. For conduction abnormalities, including left bundle branch block, right bundle branch block, first degree atrioventricular block, left anterior fascicular block, and left posterior fascicular block, AUROCs ranged from 0.88 to 0.96. ECG-GPT identified the full context of diagnosis statements with allied conditions with a median pairwise similarity of 0.90, significantly greater than baseline (P &lt; 0.001). Results were comparable across external validation sites.
 
                                             Conclusion: We developed and validated a vision encoder-decoder model that generates expert-level interpretations from ECG images, a scalable strategy for accessible automated ECG analysis.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--A novel digital twin strategy to examine the implications of randomized clinical trials for real-world populations-->
-                    <h2 class="year">2026</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">NPJ Digital Medicine</abbr>
-                                    <img src="../publications/images/rct-gan-1.jpg" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title"> A novel digital twin strategy to examine the implications of randomized clinical trials for real-world populations</div>
-                                    <div class="author">
-                                        <p>Phyllis M. Thangaraj*, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar*</a>, Sicong Huang, Girish N. Nadkarni, Bobak J. Mortazavi, Evangelos K. Oikonomou, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://www.nature.com/articles/s41746-026-02464-1" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--A novel digital twin strategy to examine the implications of randomized clinical trials for real-world populations-->
+<h2 class="year">2026</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/rct-gan-1.jpg"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">NPJ Digital Medicine</abbr></div>
+<div class="title"> A novel digital twin strategy to examine the implications of randomized clinical trials for real-world populations</div>
+<div class="author">
+<p>Phyllis M. Thangaraj*, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar*</a>, Sicong Huang, Girish N. Nadkarni, Bobak J. Mortazavi, Evangelos K. Oikonomou, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://www.nature.com/articles/s41746-026-02464-1" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Randomized clinical trials (RCTs) guide medical practice; however, their generalizability across populations varies. We developed a statistically informed Generative Adversarial Network model, RCT-Twin-GAN, that leverages relationships between covariates and outcomes to generate a digital twin of an RCT conditioned on covariate distributions from a second patient population. We reproduced the disparate treatment effects of RCTs with similar interventions: the Systolic Blood Pressure Intervention Trial (SPRINT) and the Action to Control Cardiovascular Risk in Diabetes (ACCORD) Blood Pressure Trial. To demonstrate treatment effects of each RCT conditioned on the other RCT population, we evaluated the cardiovascular event-free survival of SPRINT-Twins conditioned on the ACCORD cohort and vice versa. The digital twins demonstrated balanced treatment arms (mean absolute standardized mean difference (MASMD)) of covariates 0.019 (SD 0.018), and the ACCORD-conditioned covariates of the SPRINT-Twins distributed more similarly to ACCORD than SPRINT (MASMD 0.0082 SD 0.016 vs. 0.46 SD 0.20). Notably, SPRINT-conditioned ACCORD-Twins reproduced the non-significant outcome seen in ACCORD (0.88 (0.73–1.06) vs. 0.87 (0.68–1.13)), while ACCORD-conditioned SPRINT-Twins reproduced the significant outcome seen in SPRINT (0.75 (0.64–0.89) vs. 0.79 (0.72–0.86)). Finally, we applied this approach to a real-world population in the electronic health record. RCT-Twin-GAN simulates the translation of RCT-derived treatment effects across patient populations.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--Artificial Intelligence-Enabled Echocardiography as a Surrogate for Multimodality Aortic Stenosis Imaging: Post Hoc Analysis of a Clinical Trial-->
-                    <h2 class="year">2025</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">Circulation: Cardiovascular Imaging</abbr>
-                                    <img src="../publications/images/post-hoc.jpg" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Artificial Intelligence-Enabled Echocardiography as a Surrogate for Multimodality Aortic Stenosis Imaging: Post Hoc Analysis of a Clinical Trial</div>
-                                    <div class="author">
-                                        <p>Evangelos K Oikonomou, Neil J Craig, Gregory Holste, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Audrey C White, Menaka Mahendran, David E Newby, Marc R Dweck, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://www.ahajournals.org/doi/abs/10.1161/CIRCIMAGING.125.018353" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--Artificial Intelligence-Enabled Echocardiography as a Surrogate for Multimodality Aortic Stenosis Imaging: Post Hoc Analysis of a Clinical Trial-->
+<h2 class="year">2025</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/post-hoc.jpg"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Circulation: Cardiovascular Imaging</abbr></div>
+<div class="title">Artificial Intelligence-Enabled Echocardiography as a Surrogate for Multimodality Aortic Stenosis Imaging: Post Hoc Analysis of a Clinical Trial</div>
+<div class="author">
+<p>Evangelos K Oikonomou, Neil J Craig, Gregory Holste, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Audrey C White, Menaka Mahendran, David E Newby, Marc R Dweck, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://www.ahajournals.org/doi/abs/10.1161/CIRCIMAGING.125.018353" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Background: Accurate aortic stenosis (AS) phenotyping requires multimodality imaging which has limited availability. The digital aortic stenosis severity index (DASSi), an artificial intelligence biomarker of AS-related remodeling on single-view 2-dimensional echocardiography, predicts AS progression independent of Doppler measurements. We sought to evaluate the ability of DASSi to define personalized AS progression profiles and to validate its performance as a scalable alternative to multimodality imaging features of functional, structural, and biological AS severity.
 
                                             Methods: In the SALTIRE-2 trial (Study Investigating the Effect of Drugs Used to Treat Osteoporosis on the Progression of Calcific Aortic Stenosis 2) of participants with mild or moderate AS, we performed blinded DASSi measurements (probability of severe AS, 0–1) on baseline transthoracic echocardiograms. We evaluated the association between baseline DASSi and (1) disease severity by hemodynamic (peak aortic valve velocity), structural (computed tomography-derived aortic valve calcium score), and biological features ([18F]sodium fluoride uptake on positron emission tomography-computed tomography); (2) longitudinal disease progression (absolute change in peak aortic valve velocity and aortic valve calcium score); and (3) incident aortic valve replacement. We used generalized linear mixed or Cox models adjusted for risk factors and aortic valve area.
 
-                                            Results: We analyzed 134 participants (72 [interquartile range, 69–78] years; 27 [20.1%] women) with a mean baseline DASSi of 0.51 (SD, 0.19). DASSi was independently associated with cross-sectional disease severity: each SD increase was associated with higher peak aortic valve velocity (+0.21 [95% CI, 0.12–0.30] m/s), aortic valve calcium score (+284 [95% CI, 101–467] Agatston units), and [18F]sodium fluoride target-to-background ratiomax (+0.17 [95% CI, 0.04–0.31]). Higher DASSi was also associated with disease progression by Doppler (peak aortic valve velocity) and computed tomography (aortic valve calcium score) at 24 months (P interaction for DASSi × time < 0.001), and future aortic valve replacement (75 events over 5.5 [interquartile range, 2.4–7.2] years, adjusted hazard ratio, 1.42 [95% CI, 1.11–1.84] per SD).
+                                            Results: We analyzed 134 participants (72 [interquartile range, 69–78] years; 27 [20.1%] women) with a mean baseline DASSi of 0.51 (SD, 0.19). DASSi was independently associated with cross-sectional disease severity: each SD increase was associated with higher peak aortic valve velocity (+0.21 [95% CI, 0.12–0.30] m/s), aortic valve calcium score (+284 [95% CI, 101–467] Agatston units), and [18F]sodium fluoride target-to-background ratiomax (+0.17 [95% CI, 0.04–0.31]). Higher DASSi was also associated with disease progression by Doppler (peak aortic valve velocity) and computed tomography (aortic valve calcium score) at 24 months (P interaction for DASSi × time &lt; 0.001), and future aortic valve replacement (75 events over 5.5 [interquartile range, 2.4–7.2] years, adjusted hazard ratio, 1.42 [95% CI, 1.11–1.84] per SD).
 
                                             Conclusions: DASSi is associated with functional, structural and biological features of AS severity and predicts disease progression and adverse outcomes. DASSi-enhanced echocardiography may provide an accessible alternative to multimodality AS imaging and serve as a predictive enrichment biomarker in clinical trials.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--Artificial intelligence-enabled electrocardiography and echocardiography to track preclinical progression of transthyretin amyloid cardiomyopathy-->
-                    <h2 class="year">2025</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">EHJ</abbr>
-                                    <img src="../publications/images/amyloid.jpeg" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Artificial intelligence-enabled electrocardiography and echocardiography to track preclinical progression of transthyretin amyloid cardiomyopathy</div>
-                                    <div class="author">
-                                        <p>Evangelos K Oikonomou , Veer Sangha , <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a> , Andreas Coppi , Harlan M Krumholz , Khurram Nasir , Edward J Miller , Cesia Gallegos Kattan , Mouaz H Al-Mallah , Sadeer Al-Kindi , Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehaf450/8206181?utm_source=authortollfreelink&utm_campaign=eurheartj&utm_medium=email&guestAccessKey=af8006a3-087a-468e-9fed-032db4b801e7&login=false" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--Artificial intelligence-enabled electrocardiography and echocardiography to track preclinical progression of transthyretin amyloid cardiomyopathy-->
+<h2 class="year">2025</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/amyloid.jpeg"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">EHJ</abbr></div>
+<div class="title">Artificial intelligence-enabled electrocardiography and echocardiography to track preclinical progression of transthyretin amyloid cardiomyopathy</div>
+<div class="author">
+<p>Evangelos K Oikonomou , Veer Sangha , <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a> , Andreas Coppi , Harlan M Krumholz , Khurram Nasir , Edward J Miller , Cesia Gallegos Kattan , Mouaz H Al-Mallah , Sadeer Al-Kindi , Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehaf450/8206181?utm_source=authortollfreelink&amp;utm_campaign=eurheartj&amp;utm_medium=email&amp;guestAccessKey=af8006a3-087a-468e-9fed-032db4b801e7&amp;login=false" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Background and Aims: The diagnosis of transthyretin amyloid cardiomyopathy (ATTR-CM) requires advanced imaging, precluding large-scale preclinical testing. Artificial intelligence (AI)-enabled transthoracic echocardiography (TTE) and electrocardiography (ECG) may provide a scalable strategy for preclinical monitoring.<br/><br/>
 
                                             Methods: This was a retrospective analysis of individuals referred for nuclear cardiac amyloid testing at the Yale-New Haven Health System (YNHHS, internal cohort) and Houston Methodist Hospitals (HMH, external cohort). Deep learning models trained to discriminate ATTR-CM from age/sex-matched controls on TTE videos (AI-Echo) and ECG images (AI-ECG) were deployed to generate study-level ATTR-CM probabilities (0% - 100%). Longitudinal trends in AI-derived probabilities were examined using age/sex-adjusted linear mixed models, and their discrimination of future disease was evaluated across preclinical stages.<br/><br/>
@@ -394,39 +334,28 @@
                                             Results: Among 984 participants at YNHHS (median age 74 years, 44.3% female) and 806 at HMH (median age 69 years, 34.5% female), 112 (11.4%) and 174 (21.6%) tested positive for ATTR-CM, respectively. Across cohorts and modalities, AI-derived ATTR-CM probabilities from 7352 TTEs and 32 205 ECGs diverged as early as 3 years before diagnosis in cases vs controls (ptime(x)group interaction  ≤ .004). Among those with both AI-Echo and AI-ECG probabilities available 1 to 3 years before nuclear testing [n = 433 (YNHHS) sand 174 (HMH)], a double-negative screen at a 0.05 threshold [164 (37.9%) and 66 (37.9%), vs all else] had 90.9% and 85.7% sensitivity (specificity of 40.3% and 41.2%), whereas a double-positive screen [78 (18.0%) and 26 (14.9%), vs all else] had 85.5% and 88.9% specificity (sensitivity of 60.6% and 42.9%).<br/><br/>
 
                                             Conclusions: Artificial intelligence - enabled echocardiography and electrocardiography may enable scalable risk stratification of ATTR-CM during its preclinical course.<br/><br/>
-                                        </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--Automated Transformation of Unstructured Cardiovascular Diagnostic Reports into Structured Datasets Using Sequentially Deployed Large Language Models-->
-                    <h2 class="year">2025</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">EHJ-DH</abbr>
-                                    <img src="../publications/images/heartdx-lm.png" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Automated Transformation of Unstructured Cardiovascular Diagnostic Reports into Structured Datasets Using Sequentially Deployed Large Language Models</div>
-                                    <div class="author">
-                                        <p><a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Lovedeep Dhingra, Arya Aminorroaya, Philip Adejumo, Girish N Nadkarni, Hua Xu, Cynthia Brandt, Evangelos K Oikonomou, Aline F Pedroso, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://academic.oup.com/ehjdh/advance-article/doi/10.1093/ehjdh/ztaf030/8103948" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--Automated Transformation of Unstructured Cardiovascular Diagnostic Reports into Structured Datasets Using Sequentially Deployed Large Language Models-->
+<h2 class="year">2025</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/heartdx-lm.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">EHJ-DH</abbr></div>
+<div class="title">Automated Transformation of Unstructured Cardiovascular Diagnostic Reports into Structured Datasets Using Sequentially Deployed Large Language Models</div>
+<div class="author">
+<p><a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Lovedeep Dhingra, Arya Aminorroaya, Philip Adejumo, Girish N Nadkarni, Hua Xu, Cynthia Brandt, Evangelos K Oikonomou, Aline F Pedroso, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://academic.oup.com/ehjdh/advance-article/doi/10.1093/ehjdh/ztaf030/8103948" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Background: Rich data in cardiovascular diagnostic testing are often sequestered in unstructured reports, limiting their use. <br/><br/>
 
                                             Methods: We sequentially deployed generative and interpretative open-source large language models (LLMs; Llama2 70b, Llama2 13b). Using Llama2 70b, we generated varying formats of transthoracic echocardiogram (TTE) reports from 3000 real-world reports with paired structured elements. Using prompt-based supervised training, we fine-tuned Llama2 13b using sequentially larger batches of generated TTE reports as inputs, to extract data across 18 clinically-relevant echocardiographic fields. We evaluated the fine-tuned model, HeartDx-LM, on distinct datasets: (i) different time periods and formats at Yale New Haven Health System (YNHHS), (ii) Medical Information Mart for Intensive Care (MIMIC) III, and (iii) MIMIC IV. We used accuracy and Cohen's Kappa as evaluation metrics and have publicly released the HeartDX-LM model.<br/> <br/>
@@ -434,120 +363,87 @@
                                             Results: HeartDX-LM was trained on 2,000 synthetic reports with varying formats and paired structured labels. We identified a lower threshold of 500 annotated reports required for fine-tuning to achieve consistent performance. At YNHHS, HeartDX-LM accurately extracted 69,144 of 70,032 values (98.7%) across 18 fields in the contemporary test set where paired structured data were available. In 100 older YNHHS reports, HeartDx-LM achieved 87.1% accuracy against expert annotations. In external validation sets from MIMIC-III and MIMIC-IV, HeartDx-LM correctly extracted 615 of 707 available values (87.9%) and 201 of 220 available values (91.3%), from 100 random, expert-annotated reports from each set. <br/><br/>
 
                                             Conclusion: We developed and validated a novel approach using paired large and moderate-sized LLMs to transform free-text echocardiographic reports into tabular datasets.<br/><br/>
-                                        </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--Development and multinational validation of an ensemble deep learning algorithm for detecting and predicting structural heart disease using noisy single-lead electrocardiograms-->
-                    <h2 class="year">2025</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">EHJ-DH</abbr>
-                                    <img src="../publications/images/1_lead_shd.jpeg" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Development and multinational validation of an ensemble deep learning algorithm for detecting and predicting structural heart disease using noisy single-lead electrocardiograms</div>
-                                    <div class="author">
-                                        <p>Arya Aminorroaya , Lovedeep S Dhingra , Aline F Pedroso , <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a> , Andreas Coppi , Akshay Khunte , Murilo Foppa , Luisa C C Brant , Sandhi M Barreto , Antonio Luiz P Ribeiro , Harlan M Krumholz , Evangelos K Oikonomou , Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://academic.oup.com/ehjdh/advance-article/doi/10.1093/ehjdh/ztaf034/8110537#google_vignette" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--Development and multinational validation of an ensemble deep learning algorithm for detecting and predicting structural heart disease using noisy single-lead electrocardiograms-->
+<h2 class="year">2025</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/1_lead_shd.jpeg"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">EHJ-DH</abbr></div>
+<div class="title">Development and multinational validation of an ensemble deep learning algorithm for detecting and predicting structural heart disease using noisy single-lead electrocardiograms</div>
+<div class="author">
+<p>Arya Aminorroaya , Lovedeep S Dhingra , Aline F Pedroso , <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a> , Andreas Coppi , Akshay Khunte , Murilo Foppa , Luisa C C Brant , Sandhi M Barreto , Antonio Luiz P Ribeiro , Harlan M Krumholz , Evangelos K Oikonomou , Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://academic.oup.com/ehjdh/advance-article/doi/10.1093/ehjdh/ztaf034/8110537#google_vignette" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Aim: Artificial intelligence (AI)-enhanced 12-lead electrocardiogram (ECG) can detect a range of structural heart diseases (SHDs); however, it has a limited role in community-based screening. We developed and externally validated a noise-resilient single-lead AI-ECG algorithm that can detect SHDs and predict the risk of their development using wearable/portable devices.<br/><br/>
 
-                                            Methods and results: Using 266 740 ECGs from 99 205 patients with paired echocardiographic data at Yale New Haven Hospital, we developed AI Deep learning for Adapting Portable Technology in HEART disease detection (ADAPT-HEART), a noise-resilient, deep learning algorithm, to detect SHDs using lead I ECG. SHD was defined as a composite of having a left ventricular ejection fraction of < 40%, moderate or severe left-sided valvular disease, and severe left ventricular hypertrophy. ADAPT-HEART was validated in four community hospitals in USA, and the population-based cohort of ELSA-Brasil. We assessed the model’s performance as a predictive biomarker among those without baseline SHD across hospital-based sites and the UK Biobank. The development population had a median age of 66 [interquartile range, 54 - 77] years and included 49 947 (50.3%) women, with 18 896 (19.0%) having any SHD. ADAPT-HEART had an area under the receiver operating characteristics curve (AUROC) of 0.879 (95% confidence interval, 0.870 - 0.888) with good calibration for detecting SHD in the test set, and consistent performance in hospital-based external sites (AUROC: 0.852 - 0.891) and ELSA-Brasil (AUROC: 0.859). Among individuals without baseline SHD, high vs. low ADAPT-HEART probability conferred a 2.8- to 5.7-fold increase in the risk of future SHD across data sources (all P < 0.05).<br/><br/>
+                                            Methods and results: Using 266 740 ECGs from 99 205 patients with paired echocardiographic data at Yale New Haven Hospital, we developed AI Deep learning for Adapting Portable Technology in HEART disease detection (ADAPT-HEART), a noise-resilient, deep learning algorithm, to detect SHDs using lead I ECG. SHD was defined as a composite of having a left ventricular ejection fraction of &lt; 40%, moderate or severe left-sided valvular disease, and severe left ventricular hypertrophy. ADAPT-HEART was validated in four community hospitals in USA, and the population-based cohort of ELSA-Brasil. We assessed the model’s performance as a predictive biomarker among those without baseline SHD across hospital-based sites and the UK Biobank. The development population had a median age of 66 [interquartile range, 54 - 77] years and included 49 947 (50.3%) women, with 18 896 (19.0%) having any SHD. ADAPT-HEART had an area under the receiver operating characteristics curve (AUROC) of 0.879 (95% confidence interval, 0.870 - 0.888) with good calibration for detecting SHD in the test set, and consistent performance in hospital-based external sites (AUROC: 0.852 - 0.891) and ELSA-Brasil (AUROC: 0.859). Among individuals without baseline SHD, high vs. low ADAPT-HEART probability conferred a 2.8- to 5.7-fold increase in the risk of future SHD across data sources (all P &lt; 0.05).<br/><br/>
 
                                             Conclusion: We propose a novel model that detects and predicts a range of SHDs from noisy single-lead ECGs obtainable on portable/wearable devices, providing a scalable strategy for community-based screening and risk stratification for SHD.<br/><br/>
-                                        </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--An Ensemble Deep Learning Algorithm for Structural Heart Disease Screening Using Electrocardiographic Images: PRESENT SHD-->
-                    <h2 class="year">2025</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">Preprint</abbr>
-                                    <img src="../publications/images/present-shd.png" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">An Ensemble Deep Learning Algorithm for Structural Heart Disease Screening Using Electrocardiographic Images: PRESENT SHD</div>
-                                    <div class="author">
-                                        <p>Lovedeep Singh Dhingra, Arya Aminorroaya, Veer Sangha, Aline Pedroso Camargos, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Andreas Coppi, Murilo Foppa, Luisa Campos Caldeira Brant, Sandhi M Barreto, Antônio LP Ribeiro, Harlan Krumholz, Evangelos K Oikonomou, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://www.medrxiv.org/content/10.1101/2024.10.06.24314939v1" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                        <a href="https://www.cards-lab.org/present-shd" class="btn btn-sm z-depth-0" role="button">Webpage</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--An Ensemble Deep Learning Algorithm for Structural Heart Disease Screening Using Electrocardiographic Images: PRESENT SHD-->
+<h2 class="year">2025</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/present-shd.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Preprint</abbr></div>
+<div class="title">An Ensemble Deep Learning Algorithm for Structural Heart Disease Screening Using Electrocardiographic Images: PRESENT SHD</div>
+<div class="author">
+<p>Lovedeep Singh Dhingra, Arya Aminorroaya, Veer Sangha, Aline Pedroso Camargos, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Andreas Coppi, Murilo Foppa, Luisa Campos Caldeira Brant, Sandhi M Barreto, Antônio LP Ribeiro, Harlan Krumholz, Evangelos K Oikonomou, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://www.medrxiv.org/content/10.1101/2024.10.06.24314939v1" role="button">PDF</a>
+<a class="btn btn-sm z-depth-0" href="https://www.cards-lab.org/present-shd" role="button">Webpage</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Background: Identifying structural heart diseases (SHDs) early can change the course of the disease, but their diagnosis requires cardiac imaging, which is limited in accessibility.<br/><br/>
 
                                             Objective: To leverage 12-lead ECG images for automated detection and prediction of multiple SHDs using a novel deep learning model.<br/><br/>
 
-                                            Methods: We developed a series of convolutional neural network models for detecting a range of individual SHDs from images of ECGs with SHDs defined by transthoracic echocardiograms (TTEs) performed within 30 days of the ECG at the Yale New Haven Hospital (YNHH). SHDs were defined based on TTEs with LV ejection fraction 40%, moderate-to-severe left-sided valvular disease (aortic/mitral stenosis or regurgitation), or severe left ventricular hypertrophy (IVSd > 1.5cm and diastolic dysfunction). We developed an ensemble XGBoost model, PRESENT-SHD, as a composite screen across all SHDs. We validated PRESENT-SHD at 4 US hospitals and a prospective population-based cohort study, the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil), with concurrent protocolized ECGs and TTEs. We also used PRESENT-SHD for risk stratification of new-onset SHD or heart failure (HF) in clinical cohorts and the population-based UK Biobank (UKB).<br/><br/>
+                                            Methods: We developed a series of convolutional neural network models for detecting a range of individual SHDs from images of ECGs with SHDs defined by transthoracic echocardiograms (TTEs) performed within 30 days of the ECG at the Yale New Haven Hospital (YNHH). SHDs were defined based on TTEs with LV ejection fraction 40%, moderate-to-severe left-sided valvular disease (aortic/mitral stenosis or regurgitation), or severe left ventricular hypertrophy (IVSd &gt; 1.5cm and diastolic dysfunction). We developed an ensemble XGBoost model, PRESENT-SHD, as a composite screen across all SHDs. We validated PRESENT-SHD at 4 US hospitals and a prospective population-based cohort study, the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil), with concurrent protocolized ECGs and TTEs. We also used PRESENT-SHD for risk stratification of new-onset SHD or heart failure (HF) in clinical cohorts and the population-based UK Biobank (UKB).<br/><br/>
 
                                             Results: The models were developed using 261,228 ECGs from 93,693 YNHH patients and evaluated on a single ECG from 11,023 individuals at YNHH (19% with SHD), 44,591 across external hospitals (20-27% with SHD), and 3,014 in the ELSA-Brasil (3% with SHD). In the held-out test set, PRESENT-SHD demonstrated an AUROC of 0.886 (0.877-894), sensitivity of 89%, and specificity of 66%. At hospital-based sites, PRESENT-SHD had AUROCs ranging from 0.854-0.900, with sensitivities and specificities of 93-96% and 51-56%, respectively. The model generalized well to ELSA-Brasil (AUROC, 0.853 [0.811-0.897], sensitivity 88%, specificity 62%). PRESENT-SHD performance was consistent across demographic subgroups. A positive PRESENT-SHD screen portended a 2- to 4-fold higher risk of new-onset SHD/HF, independent of demographics, comorbidities, and the competing risk of death across clinical sites and UKB, with high predictive discrimination.<br/><br/>
 
                                             Conclusion: We developed and validated PRESENT-SHD, an AI-ECG tool identifying a range of SHD using images of 12-lead ECGs, representing a robust, scalable, and accessible modality for automated SHD screening and risk stratification.<br/><br/>
-                                        </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--Equivariant Neural Networks for Controlling Dynamic Spatial Light Modulators-->
-                    <h2 class="year">2024</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">JIMMI</abbr>
-                                    <img src="../publications/images/enn2.png" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Equivariant Neural Networks for Controlling Dynamic Spatial Light Modulators</div>
-                                    <div class="author">
-                                        <p><a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>*, Rui Wang*, Darrel D'Souza, Jonathan P Singer, Robin Walters</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <!-- <a href="https://www.nature.com/articles/s44161-024-00469-1" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--Equivariant Neural Networks for Controlling Dynamic Spatial Light Modulators-->
+<h2 class="year">2024</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/enn2.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">JIMMI</abbr></div>
+<div class="title">Equivariant Neural Networks for Controlling Dynamic Spatial Light Modulators</div>
+<div class="author">
+<p><a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>*, Rui Wang*, Darrel D'Souza, Jonathan P Singer, Robin Walters</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<!-- <a href="https://www.nature.com/articles/s44161-024-00469-1" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Spatial Light Modulators (SLMs) are devices that are capable of manipulating incident light by passing it through an
                                             array of phase/intensity altering pixels. A recent alternative design involves creating a phase mask by directing a thin
                                             film of fluid
@@ -570,123 +466,151 @@
                                             effective
                                             ways to deploy the process of modulation of light in SLMs in a variety of applications.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-                    <br/><br/>
-
-                    <!--Development and multinational validation of an algorithmic strategy for high Lp(a) screening-->
-                    <h2 class="year">2024</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">Nature Cardiovascular Research</abbr>
-                                    <img src="../publications/images/Lpa.webp" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Development and multinational validation of an algorithmic strategy for high Lp(a) screening</div>
-                                    <div class="author">
-                                        <p>Arya Aminorroaya, Lovedeep S Dhingra, Evangelos K Oikonomou, Seyedmohammad Saadatagah, Phyllis Thangaraj, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Erica S Spatz, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://www.nature.com/articles/s44161-024-00469-1" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                        <a href="https://www.cards-lab.org/arise" class="btn btn-sm z-depth-0" role="button">Webpage</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<br/><br/>
+<!--Development and multinational validation of an algorithmic strategy for high Lp(a) screening-->
+<h2 class="year">2024</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/Lpa.webp"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Nature Cardiovascular Research</abbr></div>
+<div class="title">Development and multinational validation of an algorithmic strategy for high Lp(a) screening</div>
+<div class="author">
+<p>Arya Aminorroaya, Lovedeep S Dhingra, Evangelos K Oikonomou, Seyedmohammad Saadatagah, Phyllis Thangaraj, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Erica S Spatz, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://www.nature.com/articles/s44161-024-00469-1" role="button">PDF</a>
+<a class="btn btn-sm z-depth-0" href="https://www.cards-lab.org/arise" role="button">Webpage</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Elevated lipoprotein (a) (Lp(a)) is associated with premature atherosclerotic cardiovascular disease. However, fewer than 0.5% of individuals undergo Lp(a) testing, limiting the evaluation and use of novel targeted therapeutics currently under development. Here we describe the development of a machine learning model for targeted screening for elevated Lp(a) (≥150 nmol l−1) in the UK Biobank (N = 456,815), the largest cohort with protocolized Lp(a) testing. We externally validated the model in 3 large cohort studies, ARIC (N = 14,484), CARDIA (N = 4,124) and MESA (N = 4,672). The model, Algorithmic Risk Inspection for Screening Elevated Lp(a) (ARISE), reduced the number needed to test to find one individual with elevated Lp(a) by up to 67.3%, based on the probability threshold, with consistent performance across external validation cohorts. ARISE could be used to optimize screening for elevated Lp(a) using commonly available clinical features, with the potential for its deployment in electronic health records to enhance the yield of Lp(a) testing in real-world settings.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--Controlling Dynamic Spatial Light Modulators using Equivariant Neural Networks-->
-                    <h2 class="year">2023</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">ICLR</abbr>
-                                    <!-- <abbr class="badge">ICLR</abbr> -->
-                                    <!-- <abbr class="badge">NeurIPS</abbr> <br/><br/> -->
-                                    <img src="../publications/images/enn.png" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Controlling Dynamic Spatial Light Modulators using Equivariant Neural Networks</div>
-                                    <div class="author">
-                                        <p><a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Darrel D'Souza, Jonathan P. Singer, Robin Walters</p>
-                                    </div>
-
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://openreview.net/pdf?id=pKrOHg9PXtc" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>Spatial Light Modulators (SLMs) are devices that can modulate the amplitude or the phase of a beam of light. These devices are used in applications such as beam front aberration and microscopic manipulation with optical tweezers. Here, we study the problem of learning to modulate light in a new type of temperature-controlled SLM. These SLMs are panels that use a thin viscous film in which shallow wave patterns can be induced by varying the temperature of the panel. This method can be used for modulating light such as high-power lasers. The problem here is to learn which input temperature signal is necessary in order to induce a given pattern in the reflected light. We propose a deep equivariant model to learn this relationship. We generate a synthetic dataset consisting of temperature signals and corresponding light patterns by simulating the thin film lubrication equation that governs the phenomenon of thermocapillary dewetting. We use this dataset to train our networks. We demonstrate the advantage of using equivariant neural networks over convolutional neural networks in order to learn the mapping.
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--Controlling Dynamic Spatial Light Modulators using Equivariant Neural Networks-->
+<h2 class="year">2023</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/enn.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">ICLR</abbr></div>
+<div class="title">Controlling Dynamic Spatial Light Modulators using Equivariant Neural Networks</div>
+<div class="author">
+<p><a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Darrel D'Souza, Jonathan P. Singer, Robin Walters</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://openreview.net/pdf?id=pKrOHg9PXtc" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>Spatial Light Modulators (SLMs) are devices that can modulate the amplitude or the phase of a beam of light. These devices are used in applications such as beam front aberration and microscopic manipulation with optical tweezers. Here, we study the problem of learning to modulate light in a new type of temperature-controlled SLM. These SLMs are panels that use a thin viscous film in which shallow wave patterns can be induced by varying the temperature of the panel. This method can be used for modulating light such as high-power lasers. The problem here is to learn which input temperature signal is necessary in order to induce a given pattern in the reflected light. We propose a deep equivariant model to learn this relationship. We generate a synthetic dataset consisting of temperature signals and corresponding light patterns by simulating the thin film lubrication equation that governs the phenomenon of thermocapillary dewetting. We use this dataset to train our networks. We demonstrate the advantage of using equivariant neural networks over convolutional neural networks in order to learn the mapping.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+</div>
+<br/><br/><br/>
+<header class="post-header">
+<h1 class="post-title-research-page">
+<span class="font-weight-bold">Pre-Prints</span>
+</h1>
+<p class="desc"></p>
+</header>
+<div class="publications">
 
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
+<!--Detection of Severe Structural Heart Disease Using an AI-Enhanced Portable 1-Lead ECG: The ACCESS-SHD Study-->
 
-                </div>
 
-                <br/><br/><br/>
+<!--Prospective Validation of a Deep Learning Model to Detect Structural Heart Disease from Apple Watch ECGs: The WATCH-SHD Study-->
+<ol class="bibliography">
+    <li>
+    <div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/watch-shd.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Preprint</abbr></div>
+    <div class="title">Prospective Validation of a Deep Learning Model to Detect Structural Heart Disease from Apple Watch ECGs: The WATCH-SHD Study</div>
+    <div class="author">
+    <p>Arya Aminorroaya, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Madeleine Carter, Mariam Khan, Lovedeep S Dhingra, Akshay Khunte, Philip M Cronin, Bernardo Lombo, Robert L McNamara, Evangelos K Oikonomou, Aline F Pedroso, Rohan Khera</p>
+    </div>
+    <div class="links">
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    <a class="btn btn-sm z-depth-0" href="http://medrxiv.org/content/10.64898/2026.08.13.26360395v1" role="button">PDF</a>
+    </div>
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+    <p>
+        Importance: Consumer wearables such as the Apple Watch can record single-lead electrocardiograms (ECGs) but are used mainly to detect rhythm disorders. Artificial intelligence–enhanced ECG (AI-ECG) could extend these real-world recordings for detecting structural heart disease (SHD), yet prospective validation remains limited.<br/>
 
-                <header class="post-header">
-                    <h1 class="post-title-research-page">
-                        <span class="font-weight-bold"><span style="color: red;">Pre-Prints</span></span>
-                    </h1>
-                    <p class="desc"></p>
-                </header>
+Objective: To prospectively validate a previously developed, noise-adapted AI-ECG model for detecting severe SHD from single-lead Apple Watch ECGs.<br/>
 
-                <div class="publications">
+Design Prospective cohort study: Setting Yale New Haven Hospital echocardiography laboratory.
 
-                    <!--Retrieval-Augmented Generation for Extracting CHA₂DS₂-VASc Risk Factors from Unstructured Clinical Notes in Patients with Atrial Fibrillation-->
-                    <h2 class="year">2024</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">Preprint</abbr>
-                                    <img src="../publications/images/chadsvasc-1.png" alt="Project Image" style="object-fit: contain;">
-                                </div>
+Participants: Adults aged ≥18 years undergoing outpatient transthoracic echocardiography (TTE) as part of routine clinical care.<br/>
 
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Retrieval-Augmented Generation for Extracting CHA₂DS₂-VASc Risk Factors from Unstructured Clinical Notes in Patients with Atrial Fibrillation</div>
-                                    <div class="author">
-                                        <p>Philip Adejumo, Phyllis Thangaraj, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Lovedeep Dhingra, Arya Aminorroaya, Rohan Khera</p>
-                                    </div>
+Exposure: A 30-second, single-lead Apple Watch ECG recorded during the TTE visit and processed through an end-to-end, HIPAA-compliant platform for real-time AI-ECG inference.<br/>
 
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://pubmed.ncbi.nlm.nih.gov/39371151/" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
+Main Outcomes and Measures: The primary outcome was discrimination for TTE-defined severe SHD—a composite of left ventricular systolic dysfunction (left ventricular ejection fraction less than40%), severe left-sided valvular disease, and/or severe left ventricular hypertrophy—assessed by the area under the receiver operating characteristic curve (AUROC). Secondary measures were sensitivity, specificity, negative predictive value (NPV), and positive predictive value (PPV) at prespecified thresholds, and screening efficiency, assessed by the number needed to test (NNT) under usual-care versus AI-ECG–guided strategies.<br/>
 
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+Results: Among 596 participants with analyzable Apple Watch ECGs (median age, 62 years [IQR, 46–72]; 51.2% women), severe SHD was present in 30 (5.1%). The model discriminated severe SHD well (AUROC, 0.841; 95% CI, 0.761–0.921), with a sensitivity of 76.7% (59.1–88.2), specificity of 83.2% (79.9–86.1), NPV of 98.5% (97.0–99.3), and PPV of 19.7% (13.5–27.8) at the prespecified threshold. An AI-ECG–guided strategy reduced the NNT to identify one case by more than 60% versus usual care across the composite and individual SHD phenotypes.<br/>
+
+Conclusions and Relevance: In this prospective cohort, a noise-adapted AI-ECG algorithm identified SHD phenotypes from real-world single-lead Apple Watch ECGs and improved screening efficiency. These findings support a potential role for wearable ECG–based screening in the scalable identification of clinically actionable SHD.<br/>
+    </p>
+    </div>
+    <!-- Hidden bibtex block -->
+    </div></div>
+    </li>
+    </ol>
+
+<!--Detection of Severe Structural Heart Disease Using an AI-Enhanced Portable 1-Lead ECG: The ACCESS-SHD Study-->
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/access-shd.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Preprint</abbr></div>
+<div class="title">Detection of Severe Structural Heart Disease Using an AI-Enhanced Portable 1-Lead ECG: The ACCESS-SHD Study</div>
+<div class="author">
+<p>Arya Aminorroaya, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Mariam Khan, Madeleine Carter, Lovedeep Singh Dhingra, Akshay Khunte, Bernardo Lombo, Robert L McNamara, Evangelos K Oikonomou, Aline F Pedroso, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://www.medrxiv.org/content/10.64898/2026.09.14.26361683v1" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
+    Aims: Structural heart disease (SHD) often remains undetected until symptoms develop. Portable 1-lead ECG devices return an automated rhythm-based interpretation, but whether AI-ECG adds diagnostic value beyond this interpretation is unknown. We prospectively evaluated a noise-adapted 1-lead AI-ECG algorithm for detecting severe SHD from portable KardiaMobile 6L recordings, and its relative diagnostic value beyond the device’s rhythm interpretation.<br/>
+
+    Methods and Results: Adults undergoing outpatient echocardiography between June 2024 and January 2025 recorded a 30-second, 1-lead ECG with real-time AI-ECG inference. The primary endpoint was discrimination for echocardiography-defined severe SHD. Secondary analyses assessed net reclassification improvement (NRI) versus the native interpretation and the number needed to test (NNT). Among 597 participants (median age 61.7 years; 51.4% women), 30 (5.1%) had severe SHD. AI-ECG achieved an AUROC of 0.872 (95% CI: 0.806– 0.938), meeting the prespecified endpoint, with 86.7% (70.3–94.7) sensitivity, 72.5% (68.7– 76.0) specificity, 99.0% (97.5–99.6) negative predictive value, and 14.4% (10.1–20.3) positive predictive value, with comparable performance across subgroups. AI-ECG increased sensitivity by 34.6 percentage points (95% CI: 13.0–56.0) over the native interpretation and yielded a categorical NRI of 24.3% (95% CI: 2.8–45.9), with 76.9% sensitivity and 80.0% specificity among tracings the device read as normal. An AI-ECG-guided strategy for detecting severe SHD reduced the NNT from 19.7 to 6.9 (a 64.8% reduction).<br/>
+    
+    Conclusions: A noise-adapted AI-ECG algorithm detected severe SHD from real-world portable 1-lead ECGs and substantially improved case finding beyond the device’s rhythm interpretation, supporting AI-ECG-guided triage as a potential scalable screening strategy.<br/>
+</p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+
+<!--Retrieval-Augmented Generation for Extracting CHA₂DS₂-VASc Risk Factors from Unstructured Clinical Notes in Patients with Atrial Fibrillation-->
+<h2 class="year">2024</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/chadsvasc-1.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Preprint</abbr></div>
+<div class="title">Retrieval-Augmented Generation for Extracting CHA₂DS₂-VASc Risk Factors from Unstructured Clinical Notes in Patients with Atrial Fibrillation</div>
+<div class="author">
+<p>Philip Adejumo, Phyllis Thangaraj, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Lovedeep Dhingra, Arya Aminorroaya, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://pubmed.ncbi.nlm.nih.gov/39371151/" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Background: Assessment of stroke risk in patients with atrial fibrillation (AF) is crucial for guiding anticoagulation therapy. CHA2DS2-VASc is a widely used score for defining this risk, but current assessments rely on manual calculation by clinicians or approximations from structured EHR data elements. Unstructured clinical notes contain rich information that could enhance risk assessment. We developed and validated a Retrieval-Augmented Generation (RAG) approach to extract CHA2DS2-VASc risk factors from unstructured notes in patients with AF.<br/>
 
                                             Methods: We employed a RAG architecture paired with the large language model, Llama3.1, to extract features relevant to CHA2DS2-VASc scores from unstructured notes. The model was deployed on a random set of 1,000 clinical notes (934 AF patients) from Yale New Haven Health System (YNHHS). To establish a gold standard, 2 clinicians manually reviewed and labeled CHA2DS2-VASc risk factors in a random subset of 200 notes. The CHA2DS2-VASc scores were calculated for each patient using structured data alone and by incorporating risk factors identified with RAG. We assessed performance across risk factors using macro-averaged area under the receiver operating characteristic (AUROC). For external validation, we utilized 100 manually labeled clinical notes from the MIMIC-IV database.<br/>
@@ -694,74 +618,51 @@
                                             Results: The RAG model demonstrated robust performance in extracting risk factors from clinical notes. In the 1000 clinical notes, RAG identified several risk factors more frequently than structured elements, including hypertension (82.4% vs 26.2%), stroke/TIA (62.9% vs 45.5%), vascular disease (83.4% vs 56.6%), and diabetes (84.1% vs 47.2%). In the 200 expert-annotated notes, the RAG approach achieved high performance for various risk factors, with AUROCs ranging from 0.96 to 0.98 for hypertension, diabetes, and age ≥75 years. Incorporating risk factors identified by RAG increased CHA2DS2-VASc scores compared with using structured data alone.<br/>
 
                                             Conclusion: An LLM-optimized RAG can accurately extract CHA2DS2-VASc risk factors from unstructured clinical notes in AF patients. This approach can enable computable risk assessment and guide appropriate anticoagulation therapy.<br/>
-                                        </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!-- Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD)  -->
-                    <h2 class="year">2024</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">Preprint</abbr>
-                                    <img src="../publications/images/id-shd.png" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD)</div>
-                                    <div class="author">
-                                        <p>Arya Aminorroaya, Lovedeep Singh Dhingra, Aline Pedroso Camargos, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Akshay Khunte, Veer Sangha, Robert L McNamara, Norrisa Haynes, Evangelos K Oikonomou, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10984075/" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>
+</p>
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!-- Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD)  -->
+<h2 class="year">2024</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/id-shd.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Preprint</abbr></div>
+<div class="title">Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD)</div>
+<div class="author">
+<p>Arya Aminorroaya, Lovedeep Singh Dhingra, Aline Pedroso Camargos, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Akshay Khunte, Veer Sangha, Robert L McNamara, Norrisa Haynes, Evangelos K Oikonomou, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10984075/" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>
                                             Portable devices capable of electrocardiogram (ECG) acquisition have the potential to enhance structural heart disease (SHD) management by enabling early detection through artificial intelligence-ECG (AI-ECG) algorithms. However, the performance of these AI algorithms for identifying SHD in a real-world screening setting is unknown. To address this gap, we aim to evaluate the validity of our wearable-adapted AI algorithm, which has been previously developed and validated for detecting SHD from single-lead portable ECGs in patients undergoing routine echocardiograms in the Yale New Haven Hospital (YNHH).
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--RCT-Twin-GAN Generates Digital Twins of Randomized Control Trials Adapted to Real-world Patients to Enhance their Inference and Application-->
-                    <h2 class="year">2023</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">Preprint</abbr>
-                                    <img src="../publications/images/rct-gan-2.jpg" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">RCT-Twin-GAN Generates Digital Twins of Randomized Control Trials Adapted to Real-world Patients to Enhance their Inference and Application</div>
-                                    <div class="author">
-                                        <p>Phyllis M Thangaraj*, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar*</a>, Evangelos K Oikonomou, Rohan Khera</p>
-                                    </div>
-
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10723568/" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>Background:
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--RCT-Twin-GAN Generates Digital Twins of Randomized Control Trials Adapted to Real-world Patients to Enhance their Inference and Application-->
+<h2 class="year">2023</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/rct-gan-2.jpg"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Preprint</abbr></div>
+<div class="title">RCT-Twin-GAN Generates Digital Twins of Randomized Control Trials Adapted to Real-world Patients to Enhance their Inference and Application</div>
+<div class="author">
+<p>Phyllis M Thangaraj*, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar*</a>, Evangelos K Oikonomou, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10723568/" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>Background:
                                             Randomized clinical trials (RCTs) are designed to produce evidence in selected populations. Assessing their effects in the real-world is essential to change medical practice, however, key populations are historically underrepresented in the RCTs. We define an approach to simulate RCT-based effects in real-world settings using RCT digital twins reflecting the covariate patterns in an electronic health record (EHR).
                                             
                                             Methods:
@@ -773,73 +674,49 @@
                                             Conclusions:
                                             RCT-Twin-GAN simulates RCT-derived effects in real-world patients by translating these effects to the covariate distributions of EHR patients. This key methodological advance may enable the direct translation of RCT-derived effects into real-world patient populations and may enable causal inference in real-world settings.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--CarDS-Plus ECG Platform: Development and Feasibility Evaluation of a Multiplatform Artificial Intelligence Toolkit for Portable and Wearable Device Electrocardiograms-->
-                    <h2 class="year">2023</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">Preprint</abbr>
-                                    <!-- <abbr class="badge">ICLR</abbr> -->
-                                    <!-- <abbr class="badge">NeurIPS</abbr> <br/><br/> -->
-                                    <img src="../publications/images/cards-plus.jpg" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">CarDS-Plus ECG Platform: Development and Feasibility Evaluation of a Multiplatform Artificial Intelligence Toolkit for Portable and Wearable Device Electrocardiograms</div>
-                                    <div class="author">
-                                        <p><a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Evangelos K Oikonomou, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10593062/" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>In the rapidly evolving landscape of modern healthcare, the integration of wearable and portable technology provides a unique opportunity for personalized health monitoring in the community. Devices like the Apple Watch, FitBit, and AliveCor KardiaMobile have revolutionized the acquisition and processing of intricate health data streams that were previously accessible only through devices only available to healthcare providers. Amidst the variety of data collected by these gadgets, single-lead electrocardiogram (ECG) recordings have emerged as a crucial source of information for monitoring cardiovascular health. Notably, there has been significant advances in artificial intelligence capable of interpreting these 1-lead ECGs, facilitating clinical diagnosis as well as the detection of rare cardiac disorders. This design study describes the development of an innovative multi-platform system aimed at the rapid deployment of AI-based ECG solutions for clinical investigation and care delivery. The study examines various design considerations, aligning them with specific applications, and develops data flows to maximize efficiency for research and clinical use. This process encompasses the reception of single-lead ECGs from diverse wearable devices, channeling this data into a centralized data lake, and facilitating real-time inference through AI models for ECG interpretation. An evaluation of the platform demonstrates a mean duration from acquisition to reporting of results of 33.0 to 35.7 seconds, after a standard 30 second acquisition, allowing the complete process to be completed in 63.0 to 65.7 seconds. There were no substantial differences in acquisition to reporting across two commercially available devices (Apple Watch and KardiaMobile). These results demonstrate the succcessful translation of design principles into a fully integrated and efficient strategy for leveraging 1-lead ECGs across platforms and interpretation by AI-ECG algorithms. Such a platform is critical to translating AI discoveries for wearable and portable ECG devices to clinical impact through rapid deployment.
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--CarDS-Plus ECG Platform: Development and Feasibility Evaluation of a Multiplatform Artificial Intelligence Toolkit for Portable and Wearable Device Electrocardiograms-->
+<h2 class="year">2023</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/cards-plus.jpg"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Preprint</abbr></div>
+<div class="title">CarDS-Plus ECG Platform: Development and Feasibility Evaluation of a Multiplatform Artificial Intelligence Toolkit for Portable and Wearable Device Electrocardiograms</div>
+<div class="author">
+<p><a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Evangelos K Oikonomou, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10593062/" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>In the rapidly evolving landscape of modern healthcare, the integration of wearable and portable technology provides a unique opportunity for personalized health monitoring in the community. Devices like the Apple Watch, FitBit, and AliveCor KardiaMobile have revolutionized the acquisition and processing of intricate health data streams that were previously accessible only through devices only available to healthcare providers. Amidst the variety of data collected by these gadgets, single-lead electrocardiogram (ECG) recordings have emerged as a crucial source of information for monitoring cardiovascular health. Notably, there has been significant advances in artificial intelligence capable of interpreting these 1-lead ECGs, facilitating clinical diagnosis as well as the detection of rare cardiac disorders. This design study describes the development of an innovative multi-platform system aimed at the rapid deployment of AI-based ECG solutions for clinical investigation and care delivery. The study examines various design considerations, aligning them with specific applications, and develops data flows to maximize efficiency for research and clinical use. This process encompasses the reception of single-lead ECGs from diverse wearable devices, channeling this data into a centralized data lake, and facilitating real-time inference through AI models for ECG interpretation. An evaluation of the platform demonstrates a mean duration from acquisition to reporting of results of 33.0 to 35.7 seconds, after a standard 30 second acquisition, allowing the complete process to be completed in 63.0 to 65.7 seconds. There were no substantial differences in acquisition to reporting across two commercially available devices (Apple Watch and KardiaMobile). These results demonstrate the succcessful translation of design principles into a fully integrated and efficient strategy for leveraging 1-lead ECGs across platforms and interpretation by AI-ECG algorithms. Such a platform is critical to translating AI discoveries for wearable and portable ECG devices to clinical impact through rapid deployment.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
-
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-
-                    <!--Deep Learning-enabled Detection of Aortic Stenosis from Noisy Single Lead Electrocardiograms-->
-                    <h2 class="year">2023</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3 abbr">
-                                    <abbr class="badge">Preprint</abbr>
-                                    <img src="../publications/images/aortic-stenosis.png" alt="Project Image" style="object-fit: contain;">
-                                </div>
-
-                                <div id="iClarify" class="col-sm-8">
-                                    <div class="title">Deep Learning-enabled Detection of Aortic Stenosis from Noisy Single Lead Electrocardiograms</div>
-                                    <div class="author">
-                                        <p>Arya Aminorroaya, Lovedeep Singh Dhingra, Veer Sangha, Evangelos K Oikonomou, Akshay Khunte, <a href="../index.html" target="_blank" rel="noopener noreferrer">Sumukh Vasisht Shankar</a>, Aline Pedroso Camargos, Norrisa Haynes, Ira Hofer, David Ouyang, Girish Nadkarni, Rohan Khera</p>
-                                    </div>
-
-                                    <div class="links">
-                                        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                                        <a href="https://www.medrxiv.org/content/10.1101/2023.09.29.23296310v1" class="btn btn-sm z-depth-0" role="button">PDF</a>
-                                    </div>
-
-                                    <!-- Hidden abstract block -->
-                                    <div class="abstract hidden">
-                                        <p>Background Due to the lack of a feasible screening strategy, aortic stenosis (AS) is often diagnosed after the development of clinical symptoms, representing advanced stages of disease. Portable and wearable devices capable of recording electrocardiograms (ECGs) can be used for scalable screening for AS, if the diagnosis can be made with a single-lead ECG, despite potentially noisy acquisition.
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+<!--Deep Learning-enabled Detection of Aortic Stenosis from Noisy Single Lead Electrocardiograms-->
+<h2 class="year">2023</h2>
+<ol class="bibliography">
+<li>
+<div class="paper-card"><div class="paper-media"><img alt="Project Image" src="../publications/images/aortic-stenosis.png"/></div><div class="paper-body"><div class="paper-meta"><abbr class="journal-tag">Preprint</abbr></div>
+<div class="title">Deep Learning-enabled Detection of Aortic Stenosis from Noisy Single Lead Electrocardiograms</div>
+<div class="author">
+<p>Arya Aminorroaya, Lovedeep Singh Dhingra, Veer Sangha, Evangelos K Oikonomou, Akshay Khunte, <a href="../index.html" rel="noopener noreferrer" target="_blank">Sumukh Vasisht Shankar</a>, Aline Pedroso Camargos, Norrisa Haynes, Ira Hofer, David Ouyang, Girish Nadkarni, Rohan Khera</p>
+</div>
+<div class="links">
+<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+<a class="btn btn-sm z-depth-0" href="https://www.medrxiv.org/content/10.1101/2023.09.29.23296310v1" role="button">PDF</a>
+</div>
+<!-- Hidden abstract block -->
+<div class="abstract hidden">
+<p>Background Due to the lack of a feasible screening strategy, aortic stenosis (AS) is often diagnosed after the development of clinical symptoms, representing advanced stages of disease. Portable and wearable devices capable of recording electrocardiograms (ECGs) can be used for scalable screening for AS, if the diagnosis can be made with a single-lead ECG, despite potentially noisy acquisition.
 
                                             Methods Using electronic health records and imaging data from a large, diverse hospital system (2015-2022), we developed a deep learning-based approach to detect moderate/severe AS using a single-lead ECG. We used ECGs paired with echocardiograms obtained within 30 days of each other to develop the model. We extracted lead I signal data from clinical ECG and augmented it with random Gaussian noise. We trained a convolutional neural network (CNN) to identify TTE-confirmed AS using noisy single-lead ECGs. Finally, we used the CNN model probabilities, along with patient age and sex, as predictive inputs to train an extreme gradient boosting (XGBoost) model to detect moderate/severe AS.
                                             
@@ -847,82 +724,59 @@
                                             
                                             Conclusion We developed a novel portable -  and wearable-adapted deep learning approach for the detection of moderate/severe AS from noisy single-lead ECGs. Our approach represents a highly sensitive, feasible, and scalable strategy for community-based AS screening.
                                         </p>
-                                    </div>
-                                    <!-- Hidden bibtex block -->
+</div>
+<!-- Hidden bibtex block -->
+</div></div>
+</li>
+</ol>
+</div>
+</article>
+</div>
+</div>
+<article>
+<div class="social">
+<div class="contact-icons">
+<a href="mailto:sumukh.vasishtshankar@yale.edu"><i class="fas fa-envelope"></i></a>
+<a href="https://scholar.google.com/citations?user=pFW1ZlIAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+<a href="https://github.com/sumukh-vasisht" rel="noopener noreferrer" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/sumukh-vasisht-s/" rel="noopener noreferrer" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+<a href="https://twitter.com/VasishtSumukh" rel="noopener noreferrer" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+</div>
+<div class="contact-note">
+<!-- Any contact note here -->
+</div>
+</div>
+</article>
 
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
 
-                </div>
-
-            </article>
-
-            </div>
-
+<!-- Footer -->
+<footer class="sticky-bottom mt-5">
+<div class="container">
+            Made with <a href="http://jekyllrb.com/ " rel="noopener noreferrer" target="_blank ">Jekyll</a> and Bootstrap.
         </div>
-
-
-    <article>
-
-        <div class="social">
-            <div class="contact-icons">
-                <a href="mailto:sumukh.vasishtshankar@yale.edu"><i class="fas fa-envelope"></i></a>
-                <a href="https://scholar.google.com/citations?user=pFW1ZlIAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
-                <a href="https://github.com/sumukh-vasisht" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/sumukh-vasisht-s/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-                <a href="https://twitter.com/VasishtSumukh" title="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-            </div>
-            <div class="contact-note">
-                <!-- Any contact note here -->
-            </div>
-        </div>
-
-    </article>
-
-    </div>
-
-    </div>
-
-    <!-- Footer -->
-
-
-    <footer class="sticky-bottom mt-5 ">
-        <div class="container ">
-            Made with <a href="http://jekyllrb.com/ " target="_blank " rel="noopener noreferrer ">Jekyll</a> and Bootstrap.
-        </div>
-    </footer>
-
+</footer>
 </body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
+<script crossorigin="anonymous" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
+<script crossorigin="anonymous" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script crossorigin="anonymous" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 <!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="../assets/js/mansory.js" type="text/javascript"></script>
-
+<script defer="" src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer="" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer="" src="../assets/js/mansory.js" type="text/javascript"></script>
 <!-- Enable Tooltips -->
 <script type="text/javascript">
     $(function() {
         $('[data-toggle="tooltip"]').tooltip()
     })
 </script>
-
 <!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script crossorigin="anonymous" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
 <script src="../assets/js/zoom.js"></script>
-
 <!-- Load Common JS -->
 <script src="../assets/js/common.js"></script>
 <script src="../js/theme.js"></script>
-
 <!-- MathJax -->
 <script type="text/javascript">
     window.MathJax = {
@@ -931,11 +785,10 @@
         }
     };
 </script>
-<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
+<script defer="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js" type="text/javascript"></script>
+<script defer="" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-185703812-1"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-185703812-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -946,7 +799,6 @@
 
     gtag('config', 'UA-185703812-1');
 </script>
-
 <script>
     $(document).ready(function() {
         // Animate fade-in for main content
@@ -960,5 +812,4 @@
         $('.navbar-nav').find('a').removeClass('waves-effect waves-light');
     });
 </script>
-
 </html>

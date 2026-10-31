@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="dark">
 
 <head>
 
@@ -18,7 +18,9 @@
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
@@ -36,16 +38,13 @@
         <!-- Nav Bar -->
         <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
             <div class="container">
-                <!-- Logo and Social Icons -->
-                <a href="mailto:sumukh.vasishtshankar@yale.edu" style="margin-right: 5px;"><i class="fas fa-envelope"></i></a>
-                <a href="https://scholar.google.com/citations?user=pFW1ZlIAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;"><i class="ai ai-google-scholar"></i></a>
-                <a href="https://github.com/sumukh-vasisht" title="GitHub" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/sumukh-vasisht-s/" title="LinkedIn" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;"><i class="fab fa-linkedin"></i></a>
-                <!-- Theme Toggle Button -->
-                <button id="theme-toggle" class="btn btn-link ml-2" title="Toggle dark/light mode" style="font-size: 1.5rem; outline: none;">
-                    <i class="fas fa-moon"></i>
-                    <i class="fas fa-sun"></i>
-                </button>
+                <a class="navbar-brand-mark" href="../index.html">SVS</a>
+                <div class="nav-social">
+                    <a href="mailto:sumukh.vasishtshankar@yale.edu" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://scholar.google.com/citations?user=pFW1ZlIAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+                    <a href="https://github.com/sumukh-vasisht" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sumukh-vasisht-s/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                </div>
                 <!-- Navbar Toggle -->
                 <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="sr-only">Toggle navigation</span>
@@ -56,35 +55,35 @@
                 <div class="collapse navbar-collapse text-right" id="navbarNav">
                     <ul class="navbar-nav ml-auto flex-nowrap">
                         <!-- About -->
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="../index.html">
                                 Home              
                                 <span class="sr-only">(current)</span>              
                             </a>
                         </li>
 
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="research.html">
                                 Research              
                                 <span class="sr-only">(current)</span>              
                             </a>
                         </li>
 
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="deployments.html">
                                 Deployments              
                                 <span class="sr-only">(current)</span>              
                             </a>
                         </li>
 
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="education.html">
                                 Education              
                                 <span class="sr-only">(current)</span>              
                             </a>
                         </li>
 
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="work.html">
                                 Work             
                                 <span class="sr-only">(current)</span>              
@@ -98,7 +97,7 @@
                             </a>
                         </li>
 
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="../svs-cv.pdf">
                                 Resume              
                                 <span class="sr-only">(current)</span>              
@@ -158,7 +157,7 @@
                 <p>Equivariant Neural Networks for Controlling Dynamic Spatial Light Modulators</p>
                 <hr>
 
-                <h5>AI in Medicine Symposium, 2024</h5>                                                                                                                               </h5>
+                <h5>AI in Medicine Symposium, 2024</h5>
                 <p>New Haven, CT</p>
                 <p><strong>Poster</strong></p>
                 <p>CarDSPlus ECG Platform</p>
@@ -190,7 +189,7 @@
                 <p>Northeastern University, Class of 2023</p>
                 <p>Khoury College of Computer Sciences - Bagged the award for outstanding research amongst 700+ peers graduating in 2023.</p>
                 <hr>
-                <h5>Khoury Research Apprenticeship</h5>                                                                                                                               </h5>
+                <h5>Khoury Research Apprenticeship</h5>
                 <p>Northeastern University</p>
                 <p>Awarded with a research fund of $14,000 for Fall 2022 and Spring 2023 semesters.</p>
                 <hr>
@@ -212,7 +211,7 @@
                 <p>Mysore, India - Fall 2019</p>
                 <p>Teaching Assistant for Data Analytics (IS0450).</p>
                 <hr>
-                <h5>NIE Summer of Code (NSoC6.0)</h5>                                                                                                                               </h5>
+                <h5>NIE Summer of Code (NSoC6.0)</h5>
                 <p>Mysore, India - Summer 2019</p>
                 <p>Progressive Web Application Development and Data Mining.</p>
                 <hr>
